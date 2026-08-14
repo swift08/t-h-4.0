@@ -230,16 +230,16 @@ nav.links { display: flex; gap: 28px; font-size: 14.5px; font-weight: 500; }
 nav.links a { text-decoration: none !important; color: #D0DCED; position: relative; padding: 4px 0; transition: color .2s ease; }
 nav.links a:hover { color: var(--sky-blue) !important; }
 .nav-cta {
-  background: linear-gradient(90deg, #32B43C 0%, #20B7E5 100%) !important;
+  background: linear-gradient(90deg, #2A8F45 0%, #2E9BB8 100%) !important;
   color: #FFFFFF !important; font-size: 14px; font-weight: 600;
   padding: 11px 22px; border-radius: 100px; text-decoration: none !important;
   font-family: var(--font-body); transition: all .25s ease; white-space: nowrap;
-  box-shadow: 0 4px 16px rgba(32, 183, 229, 0.35), 0 2px 8px rgba(50, 180, 60, 0.25);
+  box-shadow: 0 3px 10px rgba(32, 183, 229, 0.2), 0 2px 6px rgba(50, 180, 60, 0.14);
   display: inline-block;
 }
 .nav-cta:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 22px rgba(32, 183, 229, 0.55), 0 2px 10px rgba(50, 180, 60, 0.35);
+  box-shadow: 0 4px 14px rgba(32, 183, 229, 0.3), 0 2px 8px rgba(50, 180, 60, 0.18);
 }
 .burger { display: none; background: none; border: none; cursor: pointer; padding: 8px; }
 .burger span { display: block; width: 22px; height: 2px; background: #FFFFFF; margin: 5px 0; transition: all .2s ease; }
@@ -296,14 +296,14 @@ nav.links a:hover { color: var(--sky-blue) !important; }
 .hero .eyebrow::before { background: linear-gradient(90deg, #66CC33, #00E5FF); }
 
 .highlight-247-badge {
-  background: linear-gradient(90deg, #32B43C, #00E5FF);
+  background: linear-gradient(90deg, #2A8F45, #2E9BB8);
   color: #FFFFFF;
   font-weight: 800;
   font-size: 12px;
   padding: 3px 8px;
   border-radius: 4px;
   letter-spacing: 0.06em;
-  box-shadow: 0 0 16px rgba(0, 229, 255, 0.65);
+  box-shadow: 0 0 8px rgba(46, 155, 184, 0.28);
   display: inline-block;
   vertical-align: middle;
   line-height: 1;
@@ -469,17 +469,17 @@ nav.links a:hover { color: var(--sky-blue) !important; }
 .submit-btn {
   position: relative !important;
   isolation: isolate;
-  background: linear-gradient(90deg, #32B43C 0%, #20B7E5 100%) !important;
+  background: linear-gradient(90deg, #2A8F45 0%, #2E9BB8 100%) !important;
   color: #FFFFFF !important;
-  box-shadow: 0 0 16px rgba(32, 183, 229, 0.4), 0 4px 15px rgba(50, 180, 60, 0.3) !important;
+  box-shadow: 0 0 10px rgba(32, 183, 229, 0.22), 0 3px 10px rgba(50, 180, 60, 0.16) !important;
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
   animation: buttonPulseGlow 3.5s infinite ease-in-out;
 }
 
 @keyframes buttonPulseGlow {
-  0% { box-shadow: 0 0 14px rgba(32, 183, 229, 0.35), 0 4px 14px rgba(50, 180, 60, 0.25); }
-  50% { box-shadow: 0 0 28px rgba(32, 183, 229, 0.7), 0 6px 22px rgba(50, 180, 60, 0.45); }
-  100% { box-shadow: 0 0 14px rgba(32, 183, 229, 0.35), 0 4px 14px rgba(50, 180, 60, 0.25); }
+  0% { box-shadow: 0 0 8px rgba(32, 183, 229, 0.18), 0 3px 10px rgba(50, 180, 60, 0.12); }
+  50% { box-shadow: 0 0 14px rgba(32, 183, 229, 0.32), 0 4px 12px rgba(50, 180, 60, 0.18); }
+  100% { box-shadow: 0 0 8px rgba(32, 183, 229, 0.18), 0 3px 10px rgba(50, 180, 60, 0.12); }
 }
 
 .btn-glow:hover,
@@ -487,7 +487,7 @@ nav.links a:hover { color: var(--sky-blue) !important; }
 .nav-cta:hover,
 .submit-btn:hover {
   transform: translateY(-3px) scale(1.02) !important;
-  box-shadow: 0 0 35px rgba(32, 183, 229, 0.85), 0 0 45px rgba(50, 180, 60, 0.5) !important;
+  box-shadow: 0 0 18px rgba(32, 183, 229, 0.38), 0 0 20px rgba(50, 180, 60, 0.22) !important;
 }
 
 /* Modality Banner Card */
