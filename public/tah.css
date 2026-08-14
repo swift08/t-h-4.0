@@ -221,6 +221,16 @@ header.nav {
   text-decoration: none !important;
 }
 .brand img { height: 44px; width: 44px; border-radius: 50%; object-fit: contain; }
+header.nav .brand img {
+  height: 62px !important;
+  width: 62px !important;
+  min-width: 62px !important;
+  min-height: 62px !important;
+  object-fit: contain;
+  flex-shrink: 0;
+  position: relative;
+  left: 8px;
+}
 .brand span small {
   display: block; font-family: var(--font-mono); font-weight: 500; font-size: 10.5px;
   letter-spacing: 0.1em; color: var(--sky-blue); text-transform: uppercase;
