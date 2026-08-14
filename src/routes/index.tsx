@@ -144,6 +144,48 @@ function Index() {
       cleanups.push(() => mobileHomeBtn.removeEventListener("click", scrollToHeroTop));
     }
 
+    // ScrollExpand: Interactive scroll kinetics for Who We Are Left Image
+    const whoCard = document.getElementById("who-image-card");
+    const whoFrame = document.getElementById("who-image-frame");
+    const whoMedia = document.getElementById("who-image-media");
+    const whoScrim = document.getElementById("who-image-scrim");
+    const whoOverlay = document.getElementById("who-image-overlay");
+
+    if (whoCard && whoFrame && whoMedia) {
+      const clampVal = (v: number, a: number, b: number) => (v < a ? a : v > b ? b : v);
+      const smoothStepVal = (edge0: number, edge1: number, x: number) => {
+        const t = clampVal((x - edge0) / (edge1 - edge0 || 1e-6), 0, 1);
+        return t * t * (3 - 2 * t);
+      };
+
+      const onWhoScroll = () => {
+        const rect = whoCard.getBoundingClientRect();
+        const winH = window.innerHeight;
+        const progress = clampVal((winH - rect.top) / (winH + rect.height * 0.5), 0, 1);
+        const e = smoothStepVal(0.12, 0.85, progress);
+
+        const iy = (1 - e) * 7;
+        const ix = (1 - e) * 6;
+        const r = 20;
+        whoFrame.style.clipPath = `inset(${iy}% ${ix}% ${iy}% ${ix}% round ${r}px)`;
+
+        const scale = 1.18 - 0.18 * e;
+        whoMedia.style.transform = `scale(${scale})`;
+
+        if (whoScrim) whoScrim.style.opacity = `${0.35 + 0.35 * e}`;
+
+        if (whoOverlay) {
+          const inn = smoothStepVal(0.25, 0.85, progress);
+          whoOverlay.style.opacity = `${0.7 + 0.3 * inn}`;
+          whoOverlay.style.transform = `translate3d(0, ${10 * (1 - inn)}px, 0)`;
+        }
+      };
+
+      window.addEventListener("scroll", onWhoScroll, { passive: true });
+      onWhoScroll();
+      cleanups.push(() => window.removeEventListener("scroll", onWhoScroll));
+    }
+
     const revealEls = document.querySelectorAll(".reveal, .reveal-stagger");
     const counters = document.querySelectorAll<HTMLElement>(".counter");
 

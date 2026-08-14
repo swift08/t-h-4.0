@@ -98,11 +98,14 @@ export const tahMarkup = `
     <div class="container">
       <div class="row g-4 g-lg-5 align-items-center">
         <div class="col-12 col-lg-5 reveal">
-          <div class="who-we-are-image-card">
-            <img src="${whoWeAreImgUrl}" alt="Trust & Hope Radiologists Consulting CT & MRI Diagnostic Scans" class="who-we-are-img">
-            <div class="who-we-are-img-overlay">
-              <span class="badge-tag">🔬 Expert Consultation</span>
-              <p class="overlay-caption">Board-certified radiologists reviewing live diagnostic studies</p>
+          <div class="who-we-are-image-card scroll-expand scroll-expand--who" id="who-image-card">
+            <div class="scroll-expand__frame who-image-frame" id="who-image-frame">
+              <img src="${whoWeAreImgUrl}" alt="Trust & Hope Radiologists Consulting CT & MRI Diagnostic Scans" class="who-we-are-img scroll-expand__media" id="who-image-media">
+              <div class="scroll-expand__scrim who-image-scrim" id="who-image-scrim"></div>
+              <div class="who-we-are-img-overlay scroll-expand__overlay" id="who-image-overlay">
+                <span class="badge-tag">🔬 Expert Consultation</span>
+                <p class="overlay-caption">Board-certified radiologists reviewing live diagnostic studies</p>
+              </div>
             </div>
           </div>
         </div>
