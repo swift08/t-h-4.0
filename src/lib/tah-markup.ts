@@ -198,16 +198,10 @@ export const tahMarkup = `
             <div class="step-flip-card" tabindex="0">
               <div class="step-flip-inner">
                 <div class="step-flip-front">
-                  <div>
-                    <span class="step-num-badge" title="Image acquisition">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 16.2A4.5 4.5 0 0 0 17.5 8h-1.8A7 7 0 1 0 2 14.9"></path><rect x="9" y="13" width="6" height="5" rx="1"></rect><path d="M10 13v-1.5a2 2 0 0 1 4 0V13"></path></svg>
-                    </span>
-                    <div class="flip-title">Image acquisition</div>
-                  </div>
-                  <div class="flip-hint">
-                    <span>Hover</span>
-                    <svg class="flip-icon-spin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
-                  </div>
+                  <span class="step-num-badge" title="Image acquisition">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 16.2A4.5 4.5 0 0 0 17.5 8h-1.8A7 7 0 1 0 2 14.9"></path><rect x="9" y="13" width="6" height="5" rx="1"></rect><path d="M10 13v-1.5a2 2 0 0 1 4 0V13"></path></svg>
+                  </span>
+                  <div class="flip-title">Image acquisition</div>
                 </div>
                 <div class="step-flip-back step-detail-card">
                   <span class="step-num-badge">
@@ -231,16 +225,10 @@ export const tahMarkup = `
             <div class="step-flip-card" tabindex="0">
               <div class="step-flip-inner">
                 <div class="step-flip-front">
-                  <div>
-                    <span class="step-num-badge" title="Secure transmission">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-                    </span>
-                    <div class="flip-title">Secure transmission</div>
-                  </div>
-                  <div class="flip-hint">
-                    <span>Hover</span>
-                    <svg class="flip-icon-spin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
-                  </div>
+                  <span class="step-num-badge" title="Secure transmission">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                  </span>
+                  <div class="flip-title">Secure transmission</div>
                 </div>
                 <div class="step-flip-back step-detail-card">
                   <span class="step-num-badge">
@@ -264,16 +252,10 @@ export const tahMarkup = `
             <div class="step-flip-card" tabindex="0">
               <div class="step-flip-inner">
                 <div class="step-flip-front">
-                  <div>
-                    <span class="step-num-badge" title="Radiologist interpretation">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="7" r="4"></circle><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path></svg>
-                    </span>
-                    <div class="flip-title">Radiologist interpretation</div>
-                  </div>
-                  <div class="flip-hint">
-                    <span>Hover</span>
-                    <svg class="flip-icon-spin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
-                  </div>
+                  <span class="step-num-badge" title="Radiologist interpretation">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="7" r="4"></circle><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path></svg>
+                  </span>
+                  <div class="flip-title">Radiologist interpretation</div>
                 </div>
                 <div class="step-flip-back step-detail-card">
                   <span class="step-num-badge">
@@ -297,16 +279,10 @@ export const tahMarkup = `
             <div class="step-flip-card" tabindex="0">
               <div class="step-flip-inner">
                 <div class="step-flip-front">
-                  <div>
-                    <span class="step-num-badge" title="Quality Check">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="m9 12 2 2 4-4"></path></svg>
-                    </span>
-                    <div class="flip-title">Quality Check</div>
-                  </div>
-                  <div class="flip-hint">
-                    <span>Hover</span>
-                    <svg class="flip-icon-spin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
-                  </div>
+                  <span class="step-num-badge" title="Quality Check">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                  </span>
+                  <div class="flip-title">Quality Check</div>
                 </div>
                 <div class="step-flip-back step-detail-card">
                   <span class="step-num-badge">
@@ -330,16 +306,10 @@ export const tahMarkup = `
             <div class="step-flip-card" tabindex="0">
               <div class="step-flip-inner">
                 <div class="step-flip-front" style="background: linear-gradient(135deg, #071A3A 0%, #0D3B8E 100%); color: #FFFFFF;">
-                  <div>
-                    <span class="step-num-badge" style="background: rgba(255,255,255,0.15); color: #FFFFFF;" title="Report Delivery">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 13V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h8"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/><path d="M16 19h6"/><path d="M19 16v6"/></svg>
-                    </span>
-                    <div class="flip-title" style="color: #FFFFFF;">Report Delivery</div>
-                  </div>
-                  <div class="flip-hint" style="background: rgba(255,255,255,0.15); color: #E6EDF5;">
-                    <span>Hover</span>
-                    <svg class="flip-icon-spin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
-                  </div>
+                  <span class="step-num-badge" style="background: rgba(255,255,255,0.15); color: #FFFFFF;" title="Report Delivery">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 13V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h8"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/><path d="M16 19h6"/><path d="M19 16v6"/></svg>
+                  </span>
+                  <div class="flip-title" style="color: #FFFFFF;">Report Delivery</div>
                 </div>
                 <div class="step-flip-back step-detail-card" style="background: linear-gradient(135deg, #071A3A 0%, #0D3B8E 100%); color: #FFFFFF;">
                   <span class="step-num-badge" style="background: rgba(255,255,255,0.15); color: #FFFFFF;">

@@ -2208,7 +2208,7 @@ footer ul a:hover { color: var(--sky-blue) !important; }
 }
 .step-flip-front {
   height: 160px;
-  padding: 16px 14px;
+  padding: 20px 16px;
   background: rgba(255, 255, 255, 0.94);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
@@ -2216,7 +2216,8 @@ footer ul a:hover { color: var(--sky-blue) !important; }
   box-shadow: 0 6px 18px rgba(32, 183, 229, 0.08);
   transform: rotateY(0deg);
   transition: all 0.3s ease;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 12px;
 }
 .step-flip-card:hover .step-flip-front {
   border-color: #20B7E5;
@@ -2229,11 +2230,11 @@ footer ul a:hover { color: var(--sky-blue) !important; }
   width: 100%;
 }
 .step-flip-front .flip-title {
-  font-size: 13.5px;
+  font-size: 14.5px;
   font-weight: 700;
   color: var(--deep-navy);
-  margin-top: 6px;
-  line-height: 1.25;
+  margin-top: 0;
+  line-height: 1.35;
 }
 .step-flip-front .flip-hint {
   display: inline-flex;
