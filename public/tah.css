@@ -32,7 +32,6 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-section[id], div[id] { scroll-margin-top: 90px; }
 
 body {
   margin: 0;
@@ -242,9 +241,40 @@ header.nav .brand img {
   letter-spacing: 0.1em; color: var(--sky-blue); text-transform: uppercase;
   white-space: nowrap;
 }
-nav.links { display: flex; gap: 28px; font-size: 14.5px; font-weight: 500; }
+nav.links { display: flex; gap: 28px; font-size: 14.5px; font-weight: 500; align-items: center; }
 nav.links a { text-decoration: none !important; color: #D0DCED; position: relative; padding: 4px 0; transition: color .2s ease; }
 nav.links a:hover { color: var(--sky-blue) !important; }
+
+/* Dynamic Home button (appears only after scrolling past Hero) */
+.nav-home-btn {
+  display: inline-block;
+  opacity: 0;
+  max-width: 0;
+  padding: 4px 0 !important;
+  margin-right: -28px;
+  overflow: hidden;
+  pointer-events: none;
+  transform: translateX(-8px);
+  transition: opacity 0.25s ease, transform 0.25s ease, max-width 0.25s ease, margin-right 0.25s ease;
+  white-space: nowrap;
+}
+.nav-home-btn.visible {
+  opacity: 1;
+  max-width: 80px;
+  margin-right: 0;
+  pointer-events: auto;
+  transform: translateX(0);
+}
+.nav-home-btn:hover {
+  color: var(--sky-blue) !important;
+}
+
+.mobile-home-btn {
+  display: none !important;
+}
+.mobile-home-btn.visible {
+  display: block !important;
+}
 .nav-cta {
   background: linear-gradient(90deg, #00BCEB 0%, #14B8DD 35%, #22B69E 65%, #2BB560 85%, #32B43C 100%) !important;
   color: #FFFFFF !important; font-size: 14px; font-weight: 600;

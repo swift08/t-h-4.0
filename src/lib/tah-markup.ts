@@ -14,6 +14,7 @@ export const tahMarkup = `
         <span>TAH RAD<small>Trust and Hope Rad Pvt. Ltd.</small></span>
       </a>
       <nav class="links">
+        <a href="#hero" class="nav-home-btn" id="nav-home-btn">Home</a>
         <a href="#who-we-are">About Us</a>
         <a href="#how-reporting-works">How It Works</a>
         <a href="#services">Services</a>
@@ -28,9 +29,10 @@ export const tahMarkup = `
 </header>
 
 <div class="mobile-drawer" id="mobile-drawer">
+  <a href="#hero" class="mobile-home-btn" id="mobile-home-btn">Home</a>
   <a href="#who-we-are">About Us</a>
   <a href="/our-team">Our Team</a>
-  <a href="#pan-india-coverage">Pan-India Coverage</a>
+  <a href="#where-we-work">Pan India Coverage</a>
   <a href="#how-reporting-works">How It Works</a>
   <a href="#services">Services</a>
   <a href="#why-us">Why Us</a>
@@ -48,31 +50,19 @@ export const tahMarkup = `
     <div class="container">
       <div class="row g-4 align-items-center">
         <div class="col-12 col-lg-10 col-xl-9 reveal">
-          <div class="d-flex align-items-center gap-2 mb-3">
-            <span class="highlight-247-badge">24×7</span>
-            <span class="eyebrow" style="margin:0;">TELERADIOLOGY REPORTING</span>
-          </div>
-
-          <h1 style="font-size:clamp(32px, 4.5vw, 56px); line-height:1.15; margin-bottom:12px;">
-            FULL-SPECTRUM TELERADIOLOGY,<br>
-            <span class="hero-title-gradient">ONE REPORTING PARTNER</span>
-            <span class="hero-title-light-streak"></span>
+          <span class="eyebrow"><span class="highlight-247-badge">24×7</span> Teleradiology Reporting</span>
+          <h1 class="hero-main-title">
+            <span class="hero-title-white">FULL-SPECTRUM<br>TELERADIOLOGY,</span><br>
+            <span class="hero-title-gradient-wrap">
+              <span class="hero-title-gradient">ONE REPORTING PARTNER</span>
+              <span class="hero-title-light-streak"></span>
+            </span>
           </h1>
-
           <p class="lead">From X-Rays to specialty MRIs, we cover the entire diagnostic imaging spectrum so you don't have to work with multiple vendors for different modalities.</p>
           
-          <div class="d-flex flex-wrap gap-2 pt-2 btn-swap-group">
-            <a href="#services" class="btn-custom btn-custom-primary">Services →</a>
-            <a href="#contact" class="btn-custom btn-custom-ghost">Contact Us →</a>
-          </div>
-
-          <div class="modality-pills">
-            <a href="#services" class="modality-pill"><span class="pulse-dot"></span> CT Scan</a>
-            <a href="#services" class="modality-pill"><span class="pulse-dot"></span> MRI</a>
-            <a href="#services" class="modality-pill"><span class="pulse-dot"></span> Digital X-Ray</a>
-            <a href="#services" class="modality-pill"><span class="pulse-dot"></span> Mammography</a>
-            <a href="#services" class="modality-pill"><span class="pulse-dot"></span> Ultrasound</a>
-            <a href="#services" class="modality-pill"><span class="pulse-dot"></span> PET / Nuclear</a>
+          <div class="hero-quick-nav mt-3 pt-2 d-flex flex-wrap gap-3">
+            <a href="#services" class="hero-btn-services">Services →</a>
+            <a href="#contact" class="hero-btn-contact">Contact Us →</a>
           </div>
         </div>
       </div>
@@ -106,7 +96,7 @@ export const tahMarkup = `
   <!-- WHO WE ARE SECTION -->
   <section class="who-we-are" id="who-we-are">
     <div class="container">
-      <div class="row align-items-center g-4 g-lg-5">
+      <div class="row g-4 g-lg-5 align-items-center">
         <div class="col-12 col-lg-5 reveal">
           <div class="who-we-are-image-card">
             <img src="${whoWeAreImgUrl}" alt="Trust & Hope Radiologists Consulting CT & MRI Diagnostic Scans" class="who-we-are-img">
@@ -132,7 +122,7 @@ export const tahMarkup = `
           <div class="d-flex flex-wrap gap-2 mt-4 btn-swap-group">
             <a href="/our-team" class="btn-custom btn-custom-primary">Meet Our Radiologists Panel →</a>
             <a href="#why-us" class="btn-custom btn-custom-ghost">Why Choose TAH RAD →</a>
-            <a href="#pan-india-coverage" class="btn-custom btn-custom-ghost">Pan-India Coverage →</a>
+            <a href="#where-we-work" class="btn-custom btn-custom-ghost">Pan India Coverage →</a>
           </div>
         </div>
       </div>
@@ -382,7 +372,6 @@ export const tahMarkup = `
         <div class="svc-nav" id="svc-nav">
           <div class="svc-nav-header">
             <span class="svc-nav-badge">24/7 Active</span>
-            <p class="svc-nav-label">8 Services</p>
           </div>
           <div class="svc-nav-list">
             <button class="svc-pill active" data-svc="ct">
@@ -629,7 +618,6 @@ export const tahMarkup = `
                 <div class="why-feature-icon">
                   <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
                 </div>
-                <span class="why-feature-num">01</span>
               </div>
               <div class="why-feature-body">
                 <h4>Avoiding Queue Theory</h4>
@@ -644,7 +632,6 @@ export const tahMarkup = `
                 <div class="why-feature-icon">
                   <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                 </div>
-                <span class="why-feature-num">02</span>
               </div>
               <div class="why-feature-body">
                 <h4>We&rsquo;ve Got Your Back</h4>
@@ -661,7 +648,6 @@ export const tahMarkup = `
                 <div class="why-feature-icon">
                   <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
                 </div>
-                <span class="why-feature-num">03</span>
               </div>
               <div class="why-feature-body">
                 <h4>Large Radiology Network</h4>
@@ -676,7 +662,6 @@ export const tahMarkup = `
                 <div class="why-feature-icon">
                   <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
                 </div>
-                <span class="why-feature-num">04</span>
               </div>
               <div class="why-feature-body">
                 <h4>Lots of Volume, Still Personal</h4>
@@ -693,7 +678,6 @@ export const tahMarkup = `
                 <div class="why-feature-icon">
                   <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
                 </div>
-                <span class="why-feature-num">05</span>
               </div>
               <div class="why-feature-body">
                 <h4>Pioneer in Teleradiology</h4>
@@ -708,7 +692,6 @@ export const tahMarkup = `
                 <div class="why-feature-icon">
                   <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
                 </div>
-                <span class="why-feature-num">06</span>
               </div>
               <div class="why-feature-body">
                 <h4>24/7 Direct Customer Support</h4>
@@ -723,13 +706,13 @@ export const tahMarkup = `
         <div class="d-inline-flex flex-wrap gap-2 justify-content-center btn-swap-group">
           <a href="/our-team" class="btn-custom btn-custom-primary">Meet Our 140+ Radiologists →</a>
           <a href="#how-reporting-works" class="btn-custom btn-custom-ghost">How Reporting Works →</a>
-          <a href="#pan-india-coverage" class="btn-custom btn-custom-ghost">Pan-India Coverage →</a>
+          <a href="#where-we-work" class="btn-custom btn-custom-ghost">Pan India Coverage →</a>
         </div>
       </div>
 
       <!-- MAP SHOWCASE BANNER -->
-      <div class="row mt-5 reveal" id="pan-india-coverage">
-        <div class="col-12" id="where-we-work">
+      <div class="row mt-5 reveal" id="where-we-work">
+        <div class="col-12">
           <div style="background: radial-gradient(circle at 80% 50%, rgba(32, 183, 229, 0.2), transparent 65%), linear-gradient(135deg, #071A3A 0%, #0D3B8E 100%); border: 1px solid rgba(32, 183, 229, 0.35); border-radius: 24px; padding: clamp(28px, 4vw, 48px); box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4); backdrop-filter: blur(12px); position: relative; overflow: hidden;">
             
             <!-- NEWS CHANNEL TICKER MARQUEE -->
@@ -850,12 +833,12 @@ export const tahMarkup = `
             <h4>REGISTERED OFFICE &amp; CONTACT</h4>
             <p>Trust and Hope Rad Pvt. Ltd.<br>#1035, 4th 'M' Block, Dr. Rajkumar Road, Rajajinagar, Bangalore – 560010</p>
             <p style="margin-bottom:12px;">
-              <strong>Call / Helpline:</strong> <a href="tel:+918867474000" style="color:var(--teal); font-weight:600; text-decoration:none;">+91 88674 74000</a><br>
-              <strong>WhatsApp:</strong> <a href="https://wa.me/918867474000" target="_blank" rel="noopener noreferrer" style="color:#25D366; font-weight:600; text-decoration:none;">+91 88674 74000 (Chat Now &rarr;)</a><br>
+              <strong>Call / Helpline:</strong> <a href="tel:+918123388860" style="color:var(--teal); font-weight:600; text-decoration:none;">+91 81233 88860</a><br>
+              <strong>WhatsApp:</strong> <a href="https://wa.me/918123388860" target="_blank" rel="noopener noreferrer" style="color:#25D366; font-weight:600; text-decoration:none;">+91 81233 88860 (Chat Now &rarr;)</a><br>
               <strong>Email:</strong> <a href="mailto:admin@trustandhoperad.com" style="color:var(--teal); font-weight:600; text-decoration:none;">admin@trustandhoperad.com</a>
             </p>
             <div class="contact-social-buttons d-flex flex-wrap gap-2 mt-3 btn-swap-group">
-              <a href="https://wa.me/918867474000" target="_blank" rel="noopener noreferrer" class="btn-custom btn-swap-default" style="background:#25D366; color:#fff; padding:7px 16px; font-size:13px; border-radius:30px; text-decoration:none;">WhatsApp</a>
+              <a href="https://wa.me/918123388860" target="_blank" rel="noopener noreferrer" class="btn-custom btn-swap-default" style="background:#25D366; color:#fff; padding:7px 16px; font-size:13px; border-radius:30px; text-decoration:none;">WhatsApp</a>
               <a href="https://in.linkedin.com/company/trust-and-hope-rad?trk=public_post_feed-actor-name" target="_blank" rel="noopener noreferrer" class="btn-custom btn-custom-ghost" style="padding:7px 16px; font-size:13px; border-radius:30px; text-decoration:none;">LinkedIn</a>
             </div>
           </div>
@@ -918,15 +901,15 @@ export const tahMarkup = `
       <div class="col-6 col-md-4 col-lg-3">
         <h5>Contact Us</h5>
         <ul style="font-size: 13.5px;">
-          <li><strong>Call:</strong> <a href="tel:+918867474000">+91 88674 74000</a></li>
-          <li><strong>WhatsApp:</strong> <a href="https://wa.me/918867474000" target="_blank" rel="noopener noreferrer" style="color:#25D366;">+91 88674 74000</a></li>
+          <li><strong>Call:</strong> <a href="tel:+918123388860">+91 81233 88860</a></li>
+          <li><strong>WhatsApp:</strong> <a href="https://wa.me/918123388860" target="_blank" rel="noopener noreferrer" style="color:#25D366;">+91 81233 88860</a></li>
           <li><strong>Mail:</strong> <a href="mailto:admin@trustandhoperad.com" style="word-break:break-all;">admin@trustandhoperad.com</a></li>
         </ul>
         <div class="topbar-socials mt-3">
           <a href="https://in.linkedin.com/company/trust-and-hope-rad?trk=public_post_feed-actor-name" target="_blank" rel="noopener noreferrer" class="topbar-social-link li-hover" title="LinkedIn" aria-label="LinkedIn">
             <svg viewBox="0 0 24 24" fill="currentColor" style="width:14px;height:14px;"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-1.25.7-1.92 1.63-1.92.93 0 1.36.67 1.36 1.92v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
           </a>
-          <a href="https://wa.me/918867474000" target="_blank" rel="noopener noreferrer" class="topbar-social-link wa-hover" title="WhatsApp" aria-label="WhatsApp">
+          <a href="https://wa.me/918123388860" target="_blank" rel="noopener noreferrer" class="topbar-social-link wa-hover" title="WhatsApp" aria-label="WhatsApp">
             <svg viewBox="0 0 24 24" fill="currentColor" style="width:14px;height:14px;"><path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984 0 1.76.459 3.474 1.33 4.987l-1.414 5.163 5.286-1.386a9.96 9.96 0 004.787 1.22h.005c5.507 0 9.99-4.478 9.99-9.985 0-2.667-1.039-5.176-2.924-7.062A9.923 9.923 0 0012.012 2zm5.82 14.161c-.247.692-1.22 1.326-1.996 1.492-.533.113-1.229.206-3.567-.763-2.989-1.237-4.908-4.275-5.059-4.474-.148-.198-1.218-1.621-1.218-3.092 0-1.47.767-2.196 1.041-2.495.274-.298.599-.373.799-.373.199 0 .399.002.573.01.185.008.435-.07.68.518.248.598.847 2.068.921 2.217.075.149.124.323.025.522-.099.198-.149.322-.298.497-.149.174-.313.389-.447.523-.148.149-.303.311-.13.609.174.298.774 1.277 1.662 2.067 1.14 1.015 2.102 1.33 2.399 1.478.298.149.472.124.646-.075.174-.199.746-.87.945-1.168.199-.298.398-.248.671-.149.274.099 1.742.82 2.04 1.043.298.224.497.348.572.473.075.124.075.72-.172 1.412z"/></svg>
           </a>
         </div>
@@ -936,7 +919,7 @@ export const tahMarkup = `
         <ul>
           <li><a href="#who-we-are">About Us</a></li>
           <li><a href="/our-team">Our Team</a></li>
-          <li><a href="#pan-india-coverage">Pan-India Coverage</a></li>
+          <li><a href="#where-we-work">Pan India Coverage</a></li>
           <li><a href="#how-reporting-works">How It Works</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#why-us">Why Us</a></li>
@@ -964,7 +947,7 @@ export const tahMarkup = `
 
 <button id="back-to-top" aria-label="Back to Top">↑</button>
 
-<a href="https://wa.me/918867474000" target="_blank" rel="noopener noreferrer" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+<a href="https://wa.me/918123388860" target="_blank" rel="noopener noreferrer" class="floating-whatsapp" aria-label="Chat on WhatsApp">
   <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984 0 1.76.459 3.474 1.33 4.987l-1.414 5.163 5.286-1.386a9.96 9.96 0 004.787 1.22h.005c5.507 0 9.99-4.478 9.99-9.985 0-2.667-1.039-5.176-2.924-7.062A9.923 9.923 0 0012.012 2zm5.82 14.161c-.247.692-1.22 1.326-1.996 1.492-.533.113-1.229.206-3.567-.763-2.989-1.237-4.908-4.275-5.059-4.474-.148-.198-1.218-1.621-1.218-3.092 0-1.47.767-2.196 1.041-2.495.274-.298.599-.373.799-.373.199 0 .399.002.573.01.185.008.435-.07.68.518.248.598.847 2.068.921 2.217.075.149.124.323.025.522-.099.198-.149.322-.298.497-.149.174-.313.389-.447.523-.148.149-.303.311-.13.609.174.298.774 1.277 1.662 2.067 1.14 1.015 2.102 1.33 2.399 1.478.298.149.472.124.646-.075.174-.199.746-.87.945-1.168.199-.298.398-.248.671-.149.274.099 1.742.82 2.04 1.043.298.224.497.348.572.473.075.124.075.72-.172 1.412z"/></svg>
   <span>Chat on WhatsApp</span>
 </a>

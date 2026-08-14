@@ -108,6 +108,42 @@ function Index() {
       });
     }
 
+    // Dynamic Home button in nav: appears after scrolling past the hero section
+    const heroSection = document.getElementById("hero");
+    const navHomeBtn = document.getElementById("nav-home-btn");
+    const mobileHomeBtn = document.getElementById("mobile-home-btn");
+
+    const checkHeroScroll = () => {
+      if (!heroSection || !navHomeBtn) return;
+      const heroRect = heroSection.getBoundingClientRect();
+      const scrolledPastHero = heroRect.bottom <= 80;
+      if (scrolledPastHero) {
+        navHomeBtn.classList.add("visible");
+        if (mobileHomeBtn) mobileHomeBtn.classList.add("visible");
+      } else {
+        navHomeBtn.classList.remove("visible");
+        if (mobileHomeBtn) mobileHomeBtn.classList.remove("visible");
+      }
+    };
+
+    window.addEventListener("scroll", checkHeroScroll, { passive: true });
+    checkHeroScroll();
+    cleanups.push(() => window.removeEventListener("scroll", checkHeroScroll));
+
+    const scrollToHeroTop = (e: Event) => {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+
+    if (navHomeBtn) {
+      navHomeBtn.addEventListener("click", scrollToHeroTop);
+      cleanups.push(() => navHomeBtn.removeEventListener("click", scrollToHeroTop));
+    }
+    if (mobileHomeBtn) {
+      mobileHomeBtn.addEventListener("click", scrollToHeroTop);
+      cleanups.push(() => mobileHomeBtn.removeEventListener("click", scrollToHeroTop));
+    }
+
     const revealEls = document.querySelectorAll(".reveal, .reveal-stagger");
     const counters = document.querySelectorAll<HTMLElement>(".counter");
 

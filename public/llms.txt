@@ -11,8 +11,8 @@
 - **Seamless PACS Integration**: Cloud-based PACS workflow supporting DICOM image transmission and instant digital report delivery.
 
 ## Key Website Pages
-- [Home Page](https://trustandhoperad.com/): Teleradiology reporting overview, service modalities, 5-step workflow, pan-India coverage, and callback request.
-- [Our Team](https://trustandhoperad.com/our-team): Clinical operations, subspecialties, radiologist credentials, and quality assurance framework.
+- [Home Page](https://trustandhoperad.com/): Teleradiology reporting overview, 5-step reporting workflow, pan-India coverage, service modalities, and callback request.
+- [Our Team](https://trustandhoperad.com/our-team): Clinical operations, radiologist credentials, and quality assurance framework.
 
 ## Full Knowledge Base
 - [Full LLM Specification](https://trustandhoperad.com/llms-full.txt): In-depth clinical workflow specification, service-level agreements (SLAs), and contact details.
