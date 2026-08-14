@@ -164,7 +164,7 @@ function OurTeam() {
         {/* HERO SECTION — LIGHT EDITORIAL SIDE-BY-SIDE */}
         <section
           style={{
-            background: "#F6F8FA",
+            background: "#F6F9FC",
             padding: "90px 0 80px 0",
             borderBottom: "1px solid var(--line)",
           }}
@@ -173,7 +173,7 @@ function OurTeam() {
             <div className="row g-4 g-lg-5 align-items-center">
               {/* LEFT CONTENT COLUMN */}
               <div className="col-12 col-lg-6">
-                <span className="eyebrow mb-3" style={{ color: "var(--teal)" }}>
+                <span className="eyebrow mb-3" style={{ color: "var(--sky-blue)" }}>
                   OUR TEAM
                 </span>
                 <h1

@@ -49,14 +49,20 @@ export const tahMarkup = `
 
     <div class="container">
       <div class="row g-4 align-items-center">
-        <div class="col-12 col-lg-9 col-xl-8 reveal">
+        <div class="col-12 col-lg-10 col-xl-9 reveal">
           <span class="eyebrow"><span class="highlight-247-badge">24×7</span> Teleradiology Reporting</span>
-          <h1>FULL-SPECTRUM TELERADIOLOGY,<br><em>ONE REPORTING PARTNER</em></h1>
+          <h1 class="hero-main-title">
+            <span class="hero-title-white">FULL-SPECTRUM<br>TELERADIOLOGY,</span><br>
+            <span class="hero-title-gradient-wrap">
+              <span class="hero-title-gradient">ONE REPORTING PARTNER</span>
+              <span class="hero-title-light-streak"></span>
+            </span>
+          </h1>
           <p class="lead">From X-Rays to specialty MRIs, we cover the entire diagnostic imaging spectrum so you don't have to work with multiple vendors for different modalities.</p>
           
-          <div class="hero-quick-nav mt-3 pt-2 d-flex flex-wrap gap-2">
-            <a href="#services" class="btn-custom btn-custom-ghost" style="padding: 9px 18px; font-size: 13.5px; border-color: rgba(43,168,183,0.35) !important; color: #FFFFFF !important; background: rgba(255,255,255,0.08) !important;">Services →</a>
-            <a href="#contact" class="btn-custom btn-custom-ghost" style="padding: 9px 18px; font-size: 13.5px; border-color: rgba(43,168,183,0.35) !important; color: #FFFFFF !important; background: rgba(255,255,255,0.08) !important;">Contact Us →</a>
+          <div class="hero-quick-nav mt-3 pt-2 d-flex flex-wrap gap-3">
+            <a href="#services" class="hero-btn-services">Services →</a>
+            <a href="#contact" class="hero-btn-contact">Contact Us →</a>
           </div>
         </div>
       </div>
@@ -111,7 +117,7 @@ export const tahMarkup = `
             <p>“We don’t just read scans, we remain accessible before, during and after the report is signed.”</p>
           </div>
 
-          <p class="who-text mb-0">The main differentiator for us, is our extensive network of Radiologists as well as our communication with our clients. Our clients don’t have to rely on ticket systems with no information related to the request, or approximate time frames. Our clients can expect direct communication with the radiologist, clear paths for escalation, and reporting SLAs we are actually accountable to.</p>
+          <p class="who-text mb-0">The main differentiator for us, is our extensive network of Radiologists as well as our communication with our clients. Our clients don’t have to rely on ticket systems with no information related to the request, or approximate time frames. Our clients can expect direct communication with the radiologist, clear paths for escalation, and reporting turnaround times we are actually accountable to.</p>
           
           <div class="d-flex flex-wrap gap-2 mt-4">
             <a href="/our-team" class="btn-custom btn-custom-primary">Meet Our Radiologists Panel →</a>
@@ -318,7 +324,7 @@ export const tahMarkup = `
           <div class="step-card-col">
             <div class="step-flip-card" tabindex="0">
               <div class="step-flip-inner">
-                <div class="step-flip-front" style="background: linear-gradient(135deg, #0E2440 0%, #16355C 100%); color: #FFFFFF;">
+                <div class="step-flip-front" style="background: linear-gradient(135deg, #071A3A 0%, #0D3B8E 100%); color: #FFFFFF;">
                   <div>
                     <span class="step-num-badge" style="background: rgba(255,255,255,0.15); color: #FFFFFF;" title="Report Delivery">
                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 13V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h8"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/><path d="M16 19h6"/><path d="M19 16v6"/></svg>
@@ -330,7 +336,7 @@ export const tahMarkup = `
                     <svg class="flip-icon-spin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
                   </div>
                 </div>
-                <div class="step-flip-back step-detail-card" style="background: linear-gradient(135deg, #0E2440 0%, #16355C 100%); color: #FFFFFF;">
+                <div class="step-flip-back step-detail-card" style="background: linear-gradient(135deg, #071A3A 0%, #0D3B8E 100%); color: #FFFFFF;">
                   <span class="step-num-badge" style="background: rgba(255,255,255,0.15); color: #FFFFFF;">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 13V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h8"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/><path d="M16 19h6"/><path d="M19 16v6"/></svg>
                   </span>
@@ -415,7 +421,7 @@ export const tahMarkup = `
                 <h3 class="svc-panel-title">CT Reporting</h3>
                 <p class="svc-panel-sub">Fast &amp; Accurate Computed Tomography</p>
               </div>
-              <span class="svc-panel-badge stat">Sub-Hour SLA</span>
+              <span class="svc-panel-badge stat">Rapid Turnaround</span>
             </div>
             <p class="svc-panel-desc">High-speed CT reporting for head, chest, abdomen, angiography, and polytrauma emergencies with sub-hour stat delivery.</p>
             <div class="svc-panel-bullets">
@@ -610,22 +616,21 @@ export const tahMarkup = `
         </div>
       </div>
 
-      <!-- WHY US — 2 COLUMN FEATURE GRID -->
+      <!-- WHY US — 3 COLUMN FEATURE GRID (2 IN A ROW PER CONTAINER) -->
       <div class="row g-4 why-features-grid reveal-stagger">
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-4">
           <div class="why-features h-100">
             <div class="why-feature-row">
               <div class="why-feature-icon-col">
                 <div class="why-feature-icon">
-                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
                 </div>
                 <span class="why-feature-num">01</span>
               </div>
               <div class="why-feature-body">
                 <h4>Avoiding Queue Theory</h4>
-                <p>Your team has a direct contact for communication, not an ever-changing support inbox. Speak directly to radiologists when every minute matters.</p>
+                <p>Your team has a dedicated contact for communication, not an ever-changing support inbox. Connect with radiologists when every minute matters.</p>
               </div>
-              <div class="why-feature-tag">Direct Access</div>
             </div>
 
             <div class="why-feature-divider"></div>
@@ -633,23 +638,24 @@ export const tahMarkup = `
             <div class="why-feature-row why-feature-row--alt">
               <div class="why-feature-icon-col">
                 <div class="why-feature-icon">
-                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                 </div>
                 <span class="why-feature-num">02</span>
               </div>
               <div class="why-feature-body">
                 <h4>We&rsquo;ve Got Your Back</h4>
-                <p>We hold ourselves accountable for our promises. Strict turnaround time SLAs with guaranteed report completion times.</p>
+                <p>We hold ourselves accountable for our promises. Disciplined turnaround times with dependable report delivery.</p>
               </div>
-              <div class="why-feature-tag">SLA Guarantee</div>
             </div>
+          </div>
+        </div>
 
-            <div class="why-feature-divider"></div>
-
+        <div class="col-12 col-lg-4">
+          <div class="why-features h-100">
             <div class="why-feature-row">
               <div class="why-feature-icon-col">
                 <div class="why-feature-icon">
-                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
                 </div>
                 <span class="why-feature-num">03</span>
               </div>
@@ -657,17 +663,14 @@ export const tahMarkup = `
                 <h4>Large Radiology Network</h4>
                 <p>Your reports will not be delayed because of the unavailability of one radiologist. <span data-stat-val="radiologists">140+</span> subspecialty radiologists on call 24/7/365.</p>
               </div>
-              <div class="why-feature-tag"><span data-stat-val="radiologists">140+</span> Specialists</div>
             </div>
-          </div>
-        </div>
 
-        <div class="col-12 col-lg-6">
-          <div class="why-features h-100">
+            <div class="why-feature-divider"></div>
+
             <div class="why-feature-row why-feature-row--alt">
               <div class="why-feature-icon-col">
                 <div class="why-feature-icon">
-                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
                 </div>
                 <span class="why-feature-num">04</span>
               </div>
@@ -675,15 +678,16 @@ export const tahMarkup = `
                 <h4>Lots of Volume, Still Personal</h4>
                 <p>We have a responsive and dedicated team, and have reported over a million studies, with more to come while maintaining personal doctor rapport.</p>
               </div>
-              <div class="why-feature-tag">1M+ Studies</div>
             </div>
+          </div>
+        </div>
 
-            <div class="why-feature-divider"></div>
-
+        <div class="col-12 col-lg-4">
+          <div class="why-features h-100">
             <div class="why-feature-row">
               <div class="why-feature-icon-col">
                 <div class="why-feature-icon">
-                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
                 </div>
                 <span class="why-feature-num">05</span>
               </div>
@@ -691,7 +695,6 @@ export const tahMarkup = `
                 <h4>Pioneer in Teleradiology</h4>
                 <p>Trusted partner for hospitals and imaging centers across India with multi-level quality assurance and cloud PACS workflow.</p>
               </div>
-              <div class="why-feature-tag">Multi-Level QA</div>
             </div>
 
             <div class="why-feature-divider"></div>
@@ -699,7 +702,7 @@ export const tahMarkup = `
             <div class="why-feature-row why-feature-row--alt">
               <div class="why-feature-icon-col">
                 <div class="why-feature-icon">
-                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
                 </div>
                 <span class="why-feature-num">06</span>
               </div>
@@ -707,7 +710,6 @@ export const tahMarkup = `
                 <h4>24/7 Direct Customer Support</h4>
                 <p>Never experience radio silence. Immediate escalation pathways and doctor-to-doctor consultation whenever critical findings emerge.</p>
               </div>
-              <div class="why-feature-tag">Zero Silence</div>
             </div>
           </div>
         </div>
@@ -724,7 +726,7 @@ export const tahMarkup = `
       <!-- MAP SHOWCASE BANNER -->
       <div class="row mt-5 reveal">
         <div class="col-12">
-          <div style="background: radial-gradient(circle at 80% 50%, rgba(43, 168, 183, 0.2), transparent 65%), linear-gradient(135deg, #0A1C33 0%, #0E2440 100%); border: 1px solid rgba(43, 168, 183, 0.35); border-radius: 24px; padding: clamp(28px, 4vw, 48px); box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4); backdrop-filter: blur(12px); position: relative; overflow: hidden;">
+          <div style="background: radial-gradient(circle at 80% 50%, rgba(32, 183, 229, 0.2), transparent 65%), linear-gradient(135deg, #071A3A 0%, #0D3B8E 100%); border: 1px solid rgba(32, 183, 229, 0.35); border-radius: 24px; padding: clamp(28px, 4vw, 48px); box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4); backdrop-filter: blur(12px); position: relative; overflow: hidden;">
             
             <!-- NEWS CHANNEL TICKER MARQUEE -->
             <div class="news-ticker-container">
@@ -777,7 +779,7 @@ export const tahMarkup = `
             <div class="row align-items-center g-4 g-lg-5">
               <div class="col-12 col-lg-6">
                 <div class="d-flex align-items-center gap-2 mb-2">
-                  <span class="eyebrow" style="color:var(--teal); margin: 0;">PAN-INDIA COVERAGE</span>
+                  <span class="eyebrow" style="color:var(--sky-blue); margin: 0;">PAN-INDIA COVERAGE</span>
                 </div>
 
                 <h3 style="font-size: clamp(26px, 3vw, 38px); color: #FFFFFF; font-weight: 700; margin-top: 8px; line-height: 1.25;">
@@ -791,21 +793,21 @@ export const tahMarkup = `
                 <!-- MAP BANNER METRIC MINI BADGES -->
                 <div class="row g-2 mb-4">
                   <div class="col-4">
-                    <div style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(43, 168, 183, 0.2); border-radius: 12px; padding: 12px 10px; text-align: center;">
+                    <div style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(32, 183, 229, 0.2); border-radius: 12px; padding: 12px 10px; text-align: center;">
                       <div style="font-family: var(--font-mono); font-size: 20px; font-weight: 700; color: #FFFFFF; line-height: 1;"><span data-stat-val="centres">350+</span></div>
                       <div style="font-size: 11px; color: #8DA5C4; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.04em; font-weight: 600;">Centres</div>
                     </div>
                   </div>
                   <div class="col-4">
-                    <div style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(43, 168, 183, 0.2); border-radius: 12px; padding: 12px 10px; text-align: center;">
+                    <div style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(32, 183, 229, 0.2); border-radius: 12px; padding: 12px 10px; text-align: center;">
                       <div style="font-family: var(--font-mono); font-size: 20px; font-weight: 700; color: #FFFFFF; line-height: 1;"><span data-stat-val="radiologists">140+</span></div>
                       <div style="font-size: 11px; color: #8DA5C4; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.04em; font-weight: 600;">Doctors</div>
                     </div>
                   </div>
                   <div class="col-4">
-                    <div style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(43, 168, 183, 0.2); border-radius: 12px; padding: 12px 10px; text-align: center;">
-                      <div style="font-family: var(--font-mono); font-size: 20px; font-weight: 700; color: #2BA8B7; line-height: 1;">15-30m</div>
-                      <div style="font-size: 11px; color: #8DA5C4; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.04em; font-weight: 600;">Stat SLA</div>
+                    <div style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(32, 183, 229, 0.2); border-radius: 12px; padding: 12px 10px; text-align: center;">
+                      <div style="font-family: var(--font-mono); font-size: 20px; font-weight: 700; color: #20B7E5; line-height: 1;">15-30m</div>
+                      <div style="font-size: 11px; color: #8DA5C4; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.04em; font-weight: 600;">Emergency TAT</div>
                     </div>
                   </div>
                 </div>
@@ -813,15 +815,15 @@ export const tahMarkup = `
                 <!-- CTA BUTTON ROW -->
                 <div class="d-flex flex-wrap align-items-center gap-2 pt-1">
                   <a href="/where-we-work" class="btn-custom btn-custom-primary" style="padding: 12px 22px; font-size: 14px;">Explore Coverage Map &rarr;</a>
-                  <a href="/our-team" class="btn-custom btn-custom-ghost" style="border-color: rgba(43, 168, 183, 0.4) !important; color: #FFFFFF !important; background: rgba(255, 255, 255, 0.08) !important; padding: 12px 18px; font-size: 14px;">Our Team &rarr;</a>
-                  <a href="/how-reporting-works" class="btn-custom btn-custom-ghost" style="border-color: rgba(43, 168, 183, 0.4) !important; color: #FFFFFF !important; background: rgba(255, 255, 255, 0.08) !important; padding: 12px 18px; font-size: 14px;">How It Works &rarr;</a>
+                  <a href="/our-team" class="btn-custom btn-custom-ghost" style="border-color: rgba(32, 183, 229, 0.4) !important; color: #FFFFFF !important; background: rgba(255, 255, 255, 0.08) !important; padding: 12px 18px; font-size: 14px;">Our Team &rarr;</a>
+                  <a href="/how-reporting-works" class="btn-custom btn-custom-ghost" style="border-color: rgba(32, 183, 229, 0.4) !important; color: #FFFFFF !important; background: rgba(255, 255, 255, 0.08) !important; padding: 12px 18px; font-size: 14px;">How It Works &rarr;</a>
                 </div>
               </div>
 
               <!-- RIGHT MAP GRAPHIC -->
               <div class="col-12 col-lg-6 text-center">
                 <div style="position: relative; display: inline-block; width: 100%;">
-                  <img src="${indianMapUrl}" alt="Pan India Teleradiology Reporting Map" style="max-height: 440px; width: 100%; object-fit: contain; border-radius: 16px; filter: drop-shadow(0 0 35px rgba(43, 168, 183, 0.45)); transition: transform 0.3s ease;">
+                  <img src="${indianMapUrl}" alt="Pan India Teleradiology Reporting Map" style="max-height: 440px; width: 100%; object-fit: contain; border-radius: 16px; filter: drop-shadow(0 0 35px rgba(32, 183, 229, 0.45)); transition: transform 0.3s ease;">
                 </div>
               </div>
             </div>
@@ -838,7 +840,7 @@ export const tahMarkup = `
         <div class="col-12 col-lg-6 contact-info reveal">
           <span class="eyebrow">GET IN TOUCH</span>
           <h2>Partner with Trust &amp; Hope Rad Today</h2>
-          <p>Ready to eliminate radiology reporting delays and give your clinical team direct radiologist access? Reach out to schedule a demo or set up your hospital workflow.</p>
+          <p>Ready to eliminate radiology reporting delays and empower your clinical team with responsive teleradiology? Reach out to schedule a demo or set up your hospital workflow.</p>
           
           <div class="office">
             <h4>REGISTERED OFFICE &amp; CONTACT</h4>

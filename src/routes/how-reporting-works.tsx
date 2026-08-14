@@ -171,7 +171,7 @@ function HowReportingWorks() {
         <section
           style={{
             background:
-              "radial-gradient(1100px 500px at 85% -10%, rgba(43, 168, 183, 0.22), transparent 60%), linear-gradient(180deg, var(--deep-navy) 0%, #0A1C33 100%)",
+              "radial-gradient(1100px 500px at 85% -10%, rgba(32, 183, 229, 0.25), transparent 60%), linear-gradient(135deg, #071A3A 0%, #0D3B8E 55%, #20B7E5 100%)",
             color: "#E6EDF5",
             padding: "50px 0 40px 0",
           }}
@@ -179,7 +179,7 @@ function HowReportingWorks() {
           <div className="container text-center">
             <div className="row justify-content-center">
               <div className="col-12 col-lg-9">
-                <span className="eyebrow mb-3" style={{ color: "var(--teal)" }}>
+                <span className="eyebrow mb-3" style={{ color: "var(--sky-blue)" }}>
                   FROM SCAN TO SIGNED REPORT, IN FIVE STEPS
                 </span>
                 <h1
@@ -196,7 +196,7 @@ function HowReportingWorks() {
                   className="lead"
                   style={{
                     fontSize: "18.5px",
-                    color: "#A2B6CF",
+                    color: "#E2EEFB",
                     maxWidth: "800px",
                     margin: "0 auto 30px auto",
                     lineHeight: 1.6,
@@ -366,7 +366,7 @@ function HowReportingWorks() {
                       <div
                         className="step-flip-front"
                         style={{
-                          background: "linear-gradient(135deg, #0E2440 0%, #16355C 100%)",
+                          background: "linear-gradient(135deg, #071A3A 0%, #0D3B8E 100%)",
                           color: "#FFFFFF",
                         }}
                       >
@@ -391,7 +391,7 @@ function HowReportingWorks() {
                       <div
                         className="step-flip-back step-detail-card"
                         style={{
-                          background: "linear-gradient(135deg, #0E2440 0%, #16355C 100%)",
+                          background: "linear-gradient(135deg, #071A3A 0%, #0D3B8E 100%)",
                           color: "#FFFFFF",
                         }}
                       >
@@ -409,7 +409,7 @@ function HowReportingWorks() {
                           className="step-highlight"
                           style={{
                             background: "rgba(255,255,255,0.08)",
-                            borderColor: "var(--teal)",
+                            borderColor: "var(--sky-blue)",
                             color: "#E6EDF5",
                           }}
                         >
@@ -425,12 +425,12 @@ function HowReportingWorks() {
             {/* CTA CALLOUT BANNER */}
             <div
               style={{
-                background: "linear-gradient(90deg, #0E2440 0%, #173B66 100%)",
+                background: "linear-gradient(135deg, #071A3A 0%, #0D3B8E 55%, #20B7E5 100%)",
                 borderRadius: "20px",
                 padding: "48px 40px",
                 color: "#FFFFFF",
                 textAlign: "center",
-                boxShadow: "0 12px 30px rgba(14, 36, 64, 0.15)",
+                boxShadow: "0 12px 30px rgba(7, 26, 58, 0.25)",
               }}
             >
               <h2 style={{ color: "#FFFFFF", fontSize: "30px", marginBottom: "16px" }}>
@@ -445,7 +445,7 @@ function HowReportingWorks() {
                 }}
               >
                 Join hundreds of imaging centers and hospitals across India benefiting from our
-                24x7 SLAs, direct radiologist access, and PACS integration.
+                24x7 coverage, seamless radiologist consultation, and PACS integration.
               </p>
               <Link
                 to="/"

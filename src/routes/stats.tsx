@@ -181,7 +181,7 @@ function StatsCMS() {
             )}
 
             <div className="mb-3">
-              <label style={{ fontSize: "13px", fontWeight: 600, color: "#2BA8B7", marginBottom: "6px", display: "block" }}>
+              <label style={{ fontSize: "13px", fontWeight: 600, color: "#20B7E5", marginBottom: "6px", display: "block" }}>
                 Username / Email
               </label>
               <input
@@ -193,7 +193,7 @@ function StatsCMS() {
                 className="form-control"
                 style={{
                   background: "#081424",
-                  border: "1px solid rgba(43, 168, 183, 0.3)",
+                  border: "1px solid rgba(32, 183, 229, 0.3)",
                   color: "#FFFFFF",
                   padding: "12px 14px",
                   borderRadius: "8px",
@@ -204,7 +204,7 @@ function StatsCMS() {
             </div>
 
             <div className="mb-4">
-              <label style={{ fontSize: "13px", fontWeight: 600, color: "#2BA8B7", marginBottom: "6px", display: "block" }}>
+              <label style={{ fontSize: "13px", fontWeight: 600, color: "#20B7E5", marginBottom: "6px", display: "block" }}>
                 Password
               </label>
               <div className="position-relative">
@@ -217,7 +217,7 @@ function StatsCMS() {
                   className="form-control"
                   style={{
                     background: "#081424",
-                    border: "1px solid rgba(43, 168, 183, 0.3)",
+                    border: "1px solid rgba(32, 183, 229, 0.3)",
                     color: "#FFFFFF",
                     padding: "12px 55px 12px 14px",
                     borderRadius: "8px",
@@ -251,14 +251,14 @@ function StatsCMS() {
               type="submit"
               className="btn w-100 mb-3"
               style={{
-                background: "linear-gradient(135deg, #2BA8B7 0%, #1A7A87 100%)",
+                background: "linear-gradient(90deg, #32B43C 0%, #20B7E5 100%)",
                 color: "#FFFFFF",
                 fontWeight: 600,
                 padding: "12px",
                 borderRadius: "10px",
                 fontSize: "15px",
                 border: "none",
-                boxShadow: "0 4px 15px rgba(43, 168, 183, 0.3)",
+                boxShadow: "0 4px 15px rgba(32, 183, 229, 0.35)",
               }}
             >
               Sign In to CMS →
@@ -332,9 +332,9 @@ function StatsCMS() {
               </Link>
               <span
                 style={{
-                  background: "rgba(43, 168, 183, 0.15)",
-                  color: "#2BA8B7",
-                  border: "1px solid rgba(43, 168, 183, 0.3)",
+                  background: "rgba(32, 183, 229, 0.15)",
+                  color: "#20B7E5",
+                  border: "1px solid rgba(32, 183, 229, 0.3)",
                   fontSize: "11px",
                   fontWeight: 600,
                   padding: "3px 9px",
@@ -363,9 +363,9 @@ function StatsCMS() {
                     width: "8px",
                     height: "8px",
                     borderRadius: "50%",
-                    backgroundColor: "#10B981",
+                    backgroundColor: "#32B43C",
                     display: "inline-block",
-                    boxShadow: "0 0 8px #10B981",
+                    boxShadow: "0 0 8px #32B43C",
                   }}
                 />
                 Admin Active
@@ -413,7 +413,7 @@ function StatsCMS() {
           <div className="mb-4 mb-md-5 text-center text-md-start">
             <span
               style={{
-                color: "#2BA8B7",
+                color: "#20B7E5",
                 fontSize: "12px",
                 fontWeight: 600,
                 letterSpacing: "0.12em",
@@ -444,8 +444,8 @@ function StatsCMS() {
             <div className="col-12 col-lg-6">
               <div
                 style={{
-                  background: "#0E2440",
-                  border: "1px solid rgba(43, 168, 183, 0.25)",
+                  background: "#071A3A",
+                  border: "1px solid rgba(32, 183, 229, 0.25)",
                   borderRadius: "16px",
                   padding: "clamp(20px, 4vw, 32px)",
                   boxShadow: "0 12px 32px rgba(0, 0, 0, 0.35)",
@@ -465,7 +465,7 @@ function StatsCMS() {
 
                   {/* STAT 1: CENTRES SERVED */}
                   <div className="mb-4">
-                    <label style={{ fontSize: "13.5px", fontWeight: 600, color: "#2BA8B7", marginBottom: "6px", display: "block" }}>
+                    <label style={{ fontSize: "13.5px", fontWeight: 600, color: "#20B7E5", marginBottom: "6px", display: "block" }}>
                       1. Centres Served
                     </label>
                     <div className="row g-2">
@@ -477,7 +477,7 @@ function StatsCMS() {
                           className="form-control"
                           style={{
                             background: "#081424",
-                            border: "1px solid rgba(43, 168, 183, 0.3)",
+                            border: "1px solid rgba(32, 183, 229, 0.3)",
                             color: "#FFFFFF",
                             padding: "10px 12px",
                             borderRadius: "8px",
@@ -496,8 +496,8 @@ function StatsCMS() {
                           className="form-control"
                           style={{
                             background: "#081424",
-                            border: "1px solid rgba(43, 168, 183, 0.3)",
-                            color: "#2BA8B7",
+                            border: "1px solid rgba(32, 183, 229, 0.3)",
+                            color: "#20B7E5",
                             padding: "10px 8px",
                             borderRadius: "8px",
                             fontSize: "15px",
@@ -514,7 +514,7 @@ function StatsCMS() {
 
                   {/* STAT 2: NEW STUDIES DAILY */}
                   <div className="mb-4">
-                    <label style={{ fontSize: "13.5px", fontWeight: 600, color: "#2BA8B7", marginBottom: "6px", display: "block" }}>
+                    <label style={{ fontSize: "13.5px", fontWeight: 600, color: "#20B7E5", marginBottom: "6px", display: "block" }}>
                       2. New Studies Uploaded Daily to PACS
                     </label>
                     <div className="row g-2">
@@ -526,7 +526,7 @@ function StatsCMS() {
                           className="form-control"
                           style={{
                             background: "#081424",
-                            border: "1px solid rgba(43, 168, 183, 0.3)",
+                            border: "1px solid rgba(32, 183, 229, 0.3)",
                             color: "#FFFFFF",
                             padding: "10px 12px",
                             borderRadius: "8px",
@@ -545,8 +545,8 @@ function StatsCMS() {
                           className="form-control"
                           style={{
                             background: "#081424",
-                            border: "1px solid rgba(43, 168, 183, 0.3)",
-                            color: "#2BA8B7",
+                            border: "1px solid rgba(32, 183, 229, 0.3)",
+                            color: "#20B7E5",
                             padding: "10px 8px",
                             borderRadius: "8px",
                             fontSize: "15px",
@@ -563,7 +563,7 @@ function StatsCMS() {
 
                   {/* STAT 3: RADIOLOGISTS */}
                   <div className="mb-4">
-                    <label style={{ fontSize: "13.5px", fontWeight: 600, color: "#2BA8B7", marginBottom: "6px", display: "block" }}>
+                    <label style={{ fontSize: "13.5px", fontWeight: 600, color: "#20B7E5", marginBottom: "6px", display: "block" }}>
                       3. Radiologists Across Specialisations
                     </label>
                     <div className="row g-2">
@@ -575,7 +575,7 @@ function StatsCMS() {
                           className="form-control"
                           style={{
                             background: "#081424",
-                            border: "1px solid rgba(43, 168, 183, 0.3)",
+                            border: "1px solid rgba(32, 183, 229, 0.3)",
                             color: "#FFFFFF",
                             padding: "10px 12px",
                             borderRadius: "8px",
@@ -594,8 +594,8 @@ function StatsCMS() {
                           className="form-control"
                           style={{
                             background: "#081424",
-                            border: "1px solid rgba(43, 168, 183, 0.3)",
-                            color: "#2BA8B7",
+                            border: "1px solid rgba(32, 183, 229, 0.3)",
+                            color: "#20B7E5",
                             padding: "10px 8px",
                             borderRadius: "8px",
                             fontSize: "15px",
@@ -612,7 +612,7 @@ function StatsCMS() {
 
                   {/* STAT 4: STATES COVERED */}
                   <div className="mb-4">
-                    <label style={{ fontSize: "13.5px", fontWeight: 600, color: "#2BA8B7", marginBottom: "6px", display: "block" }}>
+                    <label style={{ fontSize: "13.5px", fontWeight: 600, color: "#20B7E5", marginBottom: "6px", display: "block" }}>
                       4. States Covered in India
                     </label>
                     <div className="row g-2">
@@ -624,7 +624,7 @@ function StatsCMS() {
                           className="form-control"
                           style={{
                             background: "#081424",
-                            border: "1px solid rgba(43, 168, 183, 0.3)",
+                            border: "1px solid rgba(32, 183, 229, 0.3)",
                             color: "#FFFFFF",
                             padding: "10px 12px",
                             borderRadius: "8px",
@@ -643,8 +643,8 @@ function StatsCMS() {
                           className="form-control"
                           style={{
                             background: "#081424",
-                            border: "1px solid rgba(43, 168, 183, 0.3)",
-                            color: "#2BA8B7",
+                            border: "1px solid rgba(32, 183, 229, 0.3)",
+                            color: "#20B7E5",
                             padding: "10px 8px",
                             borderRadius: "8px",
                             fontSize: "15px",
@@ -665,14 +665,14 @@ function StatsCMS() {
                       type="submit"
                       className="btn flex-fill"
                       style={{
-                        background: "linear-gradient(135deg, #2BA8B7 0%, #1A7A87 100%)",
+                        background: "linear-gradient(90deg, #32B43C 0%, #20B7E5 100%)",
                         color: "#FFFFFF",
                         fontWeight: 600,
                         padding: "11px 18px",
                         borderRadius: "10px",
                         border: "none",
                         fontSize: "14.5px",
-                        boxShadow: "0 4px 15px rgba(43, 168, 183, 0.3)",
+                        boxShadow: "0 4px 15px rgba(32, 183, 229, 0.35)",
                       }}
                     >
                       Save Changes Live
@@ -703,8 +703,8 @@ function StatsCMS() {
               {/* LIVE PREVIEW CONTAINER */}
               <div
                 style={{
-                  background: "#0B1D33",
-                  border: "1px solid rgba(43, 168, 183, 0.25)",
+                  background: "#071A3A",
+                  border: "1px solid rgba(32, 183, 229, 0.25)",
                   borderRadius: "16px",
                   padding: "clamp(20px, 4vw, 32px)",
                   marginBottom: "24px",
@@ -717,8 +717,8 @@ function StatsCMS() {
                   </h2>
                   <span
                     style={{
-                      background: "rgba(16, 185, 129, 0.15)",
-                      color: "#10B981",
+                      background: "rgba(50, 180, 60, 0.15)",
+                      color: "#32B43C",
                       fontSize: "11px",
                       fontWeight: 600,
                       padding: "3px 8px",
@@ -736,7 +736,7 @@ function StatsCMS() {
                     <div
                       style={{
                         background: "#081424",
-                        border: "1px solid rgba(43, 168, 183, 0.2)",
+                        border: "1px solid rgba(32, 183, 229, 0.2)",
                         borderRadius: "12px",
                         padding: "clamp(14px, 3vw, 20px)",
                         textAlign: "center",
@@ -754,7 +754,7 @@ function StatsCMS() {
                         }}
                       >
                         {formData.centres}
-                        <span style={{ color: "#2BA8B7" }}>{formData.centresSuffix}</span>
+                        <span style={{ color: "#20B7E5" }}>{formData.centresSuffix}</span>
                       </div>
                       <div style={{ fontSize: "clamp(10.5px, 2.5vw, 11.5px)", color: "#8DA5C4", textTransform: "uppercase", letterSpacing: "0.05em", fontWeight: 600 }}>
                         Centres Served
@@ -766,7 +766,7 @@ function StatsCMS() {
                     <div
                       style={{
                         background: "#081424",
-                        border: "1px solid rgba(43, 168, 183, 0.2)",
+                        border: "1px solid rgba(32, 183, 229, 0.2)",
                         borderRadius: "12px",
                         padding: "clamp(14px, 3vw, 20px)",
                         textAlign: "center",
@@ -784,7 +784,7 @@ function StatsCMS() {
                         }}
                       >
                         {formData.studies}
-                        <span style={{ color: "#2BA8B7" }}>{formData.studiesSuffix}</span>
+                        <span style={{ color: "#20B7E5" }}>{formData.studiesSuffix}</span>
                       </div>
                       <div style={{ fontSize: "clamp(10.5px, 2.5vw, 11.5px)", color: "#8DA5C4", textTransform: "uppercase", letterSpacing: "0.05em", fontWeight: 600 }}>
                         New Studies Daily
@@ -796,7 +796,7 @@ function StatsCMS() {
                     <div
                       style={{
                         background: "#081424",
-                        border: "1px solid rgba(43, 168, 183, 0.2)",
+                        border: "1px solid rgba(32, 183, 229, 0.2)",
                         borderRadius: "12px",
                         padding: "clamp(14px, 3vw, 20px)",
                         textAlign: "center",
@@ -814,7 +814,7 @@ function StatsCMS() {
                         }}
                       >
                         {formData.radiologists}
-                        <span style={{ color: "#2BA8B7" }}>{formData.radiologistsSuffix}</span>
+                        <span style={{ color: "#20B7E5" }}>{formData.radiologistsSuffix}</span>
                       </div>
                       <div style={{ fontSize: "clamp(10.5px, 2.5vw, 11.5px)", color: "#8DA5C4", textTransform: "uppercase", letterSpacing: "0.05em", fontWeight: 600 }}>
                         Radiologists Panel
@@ -826,7 +826,7 @@ function StatsCMS() {
                     <div
                       style={{
                         background: "#081424",
-                        border: "1px solid rgba(43, 168, 183, 0.2)",
+                        border: "1px solid rgba(32, 183, 229, 0.2)",
                         borderRadius: "12px",
                         padding: "clamp(14px, 3vw, 20px)",
                         textAlign: "center",
@@ -844,7 +844,7 @@ function StatsCMS() {
                         }}
                       >
                         {formData.states}
-                        <span style={{ color: "#2BA8B7" }}>{formData.statesSuffix}</span>
+                        <span style={{ color: "#20B7E5" }}>{formData.statesSuffix}</span>
                       </div>
                       <div style={{ fontSize: "clamp(10.5px, 2.5vw, 11.5px)", color: "#8DA5C4", textTransform: "uppercase", letterSpacing: "0.05em", fontWeight: 600 }}>
                         States Covered
@@ -857,7 +857,7 @@ function StatsCMS() {
               {/* FOOTER TEXT PREVIEW */}
               <div
                 style={{
-                  background: "#0B1D33",
+                  background: "#071A3A",
                   border: "1px solid rgba(255, 255, 255, 0.1)",
                   borderRadius: "16px",
                   padding: "clamp(16px, 3vw, 24px)",
@@ -874,7 +874,7 @@ function StatsCMS() {
                     fontSize: "13px",
                     color: "#C5D6EA",
                     lineHeight: 1.65,
-                    borderLeft: "3px solid #2BA8B7",
+                    borderLeft: "3px solid #20B7E5",
                     wordBreak: "break-word",
                   }}
                 >
@@ -892,14 +892,14 @@ function StatsCMS() {
                   marginTop: "20px",
                   padding: "16px",
                   borderRadius: "12px",
-                  background: "rgba(43, 168, 183, 0.06)",
-                  border: "1px dashed rgba(43, 168, 183, 0.3)",
+                  background: "rgba(32, 183, 229, 0.06)",
+                  border: "1px dashed rgba(32, 183, 229, 0.3)",
                   fontSize: "12.5px",
                   color: "#8DA5C4",
                   wordBreak: "break-word",
                 }}
               >
-                <div className="d-flex align-items-center gap-2 mb-1" style={{ color: "#2BA8B7", fontWeight: 600 }}>
+                <div className="d-flex align-items-center gap-2 mb-1" style={{ color: "#20B7E5", fontWeight: 600 }}>
                   🔒 Admin Security & SEO Status
                 </div>
                 <ul className="mb-0 ps-3 style-disc" style={{ lineHeight: 1.6 }}>

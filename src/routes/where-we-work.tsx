@@ -165,7 +165,7 @@ function WhereWeWork() {
         <section
           style={{
             background:
-              "radial-gradient(1200px 600px at 85% -10%, rgba(43, 168, 183, 0.22), transparent 60%), linear-gradient(180deg, var(--deep-navy) 0%, #0A1C33 100%)",
+              "radial-gradient(1200px 600px at 85% -10%, rgba(32, 183, 229, 0.25), transparent 60%), linear-gradient(135deg, #071A3A 0%, #0D3B8E 55%, #20B7E5 100%)",
             color: "#E6EDF5",
             padding: "90px 0 70px 0",
             position: "relative",
@@ -176,7 +176,7 @@ function WhereWeWork() {
             <div className="row justify-content-center text-center">
               <div className="col-12 col-lg-10">
                 <div className="d-inline-flex align-items-center gap-2 mb-3">
-                  <span className="eyebrow" style={{ color: "var(--teal)", margin: 0 }}>
+                  <span className="eyebrow" style={{ color: "var(--sky-blue)", margin: 0 }}>
                     PAN-INDIA COVERAGE &amp; NETWORK
                   </span>
                 </div>
@@ -190,14 +190,14 @@ function WhereWeWork() {
                     lineHeight: 1.2,
                   }}
                 >
-                  One Reporting Network, <span style={{ color: "var(--teal)" }}>{stats.states}{stats.statesSuffix}</span> States
+                  One Reporting Network, <span style={{ color: "var(--sky-blue)" }}>{stats.states}{stats.statesSuffix}</span> States
                 </h1>
 
                 <p
                   className="lead"
                   style={{
                     fontSize: "18.5px",
-                    color: "#A2B6CF",
+                    color: "#E2EEFB",
                     maxWidth: "860px",
                     margin: "0 auto 36px auto",
                     lineHeight: 1.65,
@@ -213,8 +213,8 @@ function WhereWeWork() {
                   <div className="col-6 col-md-3">
                     <div
                       style={{
-                        background: "rgba(255, 255, 255, 0.05)",
-                        border: "1px solid rgba(43, 168, 183, 0.25)",
+                        background: "rgba(255, 255, 255, 0.08)",
+                        border: "1px solid rgba(32, 183, 229, 0.3)",
                         borderRadius: "16px",
                         padding: "20px 16px",
                         backdropFilter: "blur(10px)",
@@ -223,7 +223,7 @@ function WhereWeWork() {
                       <div style={{ fontFamily: "var(--font-mono)", fontSize: "30px", fontWeight: 700, color: "#FFFFFF" }}>
                         {stats.states}{stats.statesSuffix}
                       </div>
-                      <div style={{ fontSize: "12px", color: "var(--teal)", textTransform: "uppercase", letterSpacing: "0.08em", fontWeight: 600, marginTop: "4px" }}>
+                      <div style={{ fontSize: "12px", color: "var(--sky-blue)", textTransform: "uppercase", letterSpacing: "0.08em", fontWeight: 600, marginTop: "4px" }}>
                         States Covered
                       </div>
                     </div>
@@ -232,8 +232,8 @@ function WhereWeWork() {
                   <div className="col-6 col-md-3">
                     <div
                       style={{
-                        background: "rgba(255, 255, 255, 0.05)",
-                        border: "1px solid rgba(43, 168, 183, 0.25)",
+                        background: "rgba(255, 255, 255, 0.08)",
+                        border: "1px solid rgba(32, 183, 229, 0.3)",
                         borderRadius: "16px",
                         padding: "20px 16px",
                         backdropFilter: "blur(10px)",
@@ -242,7 +242,7 @@ function WhereWeWork() {
                       <div style={{ fontFamily: "var(--font-mono)", fontSize: "30px", fontWeight: 700, color: "#FFFFFF" }}>
                         {stats.centres}{stats.centresSuffix}
                       </div>
-                      <div style={{ fontSize: "12px", color: "var(--teal)", textTransform: "uppercase", letterSpacing: "0.08em", fontWeight: 600, marginTop: "4px" }}>
+                      <div style={{ fontSize: "12px", color: "var(--sky-blue)", textTransform: "uppercase", letterSpacing: "0.08em", fontWeight: 600, marginTop: "4px" }}>
                         Centres Served
                       </div>
                     </div>
@@ -251,8 +251,8 @@ function WhereWeWork() {
                   <div className="col-6 col-md-3">
                     <div
                       style={{
-                        background: "rgba(255, 255, 255, 0.05)",
-                        border: "1px solid rgba(43, 168, 183, 0.25)",
+                        background: "rgba(255, 255, 255, 0.08)",
+                        border: "1px solid rgba(32, 183, 229, 0.3)",
                         borderRadius: "16px",
                         padding: "20px 16px",
                         backdropFilter: "blur(10px)",
@@ -261,7 +261,7 @@ function WhereWeWork() {
                       <div style={{ fontFamily: "var(--font-mono)", fontSize: "30px", fontWeight: 700, color: "#FFFFFF" }}>
                         {stats.studies}{stats.studiesSuffix}
                       </div>
-                      <div style={{ fontSize: "12px", color: "var(--teal)", textTransform: "uppercase", letterSpacing: "0.08em", fontWeight: 600, marginTop: "4px" }}>
+                      <div style={{ fontSize: "12px", color: "var(--sky-blue)", textTransform: "uppercase", letterSpacing: "0.08em", fontWeight: 600, marginTop: "4px" }}>
                         Daily Scans
                       </div>
                     </div>
@@ -270,8 +270,8 @@ function WhereWeWork() {
                   <div className="col-6 col-md-3">
                     <div
                       style={{
-                        background: "rgba(255, 255, 255, 0.05)",
-                        border: "1px solid rgba(43, 168, 183, 0.25)",
+                        background: "rgba(255, 255, 255, 0.08)",
+                        border: "1px solid rgba(32, 183, 229, 0.3)",
                         borderRadius: "16px",
                         padding: "20px 16px",
                         backdropFilter: "blur(10px)",
@@ -280,7 +280,7 @@ function WhereWeWork() {
                       <div style={{ fontFamily: "var(--font-mono)", fontSize: "30px", fontWeight: 700, color: "#FFFFFF" }}>
                         {stats.radiologists}{stats.radiologistsSuffix}
                       </div>
-                      <div style={{ fontSize: "12px", color: "var(--teal)", textTransform: "uppercase", letterSpacing: "0.08em", fontWeight: 600, marginTop: "4px" }}>
+                      <div style={{ fontSize: "12px", color: "var(--sky-blue)", textTransform: "uppercase", letterSpacing: "0.08em", fontWeight: 600, marginTop: "4px" }}>
                         Radiologists
                       </div>
                     </div>
@@ -296,12 +296,12 @@ function WhereWeWork() {
           <div className="container">
             <div
               style={{
-                background: "linear-gradient(135deg, #0E2440 0%, #163863 100%)",
-                border: "1px solid rgba(43, 168, 183, 0.3)",
+                background: "linear-gradient(135deg, #071A3A 0%, #0D3B8E 100%)",
+                border: "1px solid rgba(32, 183, 229, 0.35)",
                 borderRadius: "20px",
                 padding: "36px 40px",
                 color: "#FFFFFF",
-                boxShadow: "0 14px 40px rgba(14, 36, 64, 0.15)",
+                boxShadow: "0 14px 40px rgba(7, 26, 58, 0.25)",
                 textAlign: "center",
               }}
             >
@@ -316,8 +316,8 @@ function WhereWeWork() {
                   marginRight: "auto",
                 }}
               >
-                With every new state we expand to, expect no less: <strong style={{ color: "var(--teal)" }}>direct communication</strong>,{" "}
-                <strong style={{ color: "#FFFFFF" }}>disciplined SLAs</strong>, and <strong style={{ color: "var(--teal)" }}>consistent quality of radiologists</strong>.
+                With every new state we expand to, expect no less: <strong style={{ color: "var(--sky-blue)" }}>direct communication</strong>,{" "}
+                <strong style={{ color: "#FFFFFF" }}>disciplined turnaround times</strong>, and <strong style={{ color: "var(--sky-blue)" }}>consistent quality of radiologists</strong>.
               </p>
             </div>
           </div>
@@ -331,11 +331,11 @@ function WhereWeWork() {
               <div className="col-12 col-lg-6">
                 <div
                   style={{
-                    background: "radial-gradient(circle at 50% 50%, rgba(43, 168, 183, 0.15), transparent 70%), linear-gradient(135deg, #0A1C33 0%, #0E2440 100%)",
-                    border: "1px solid rgba(43, 168, 183, 0.35)",
+                    background: "radial-gradient(circle at 50% 50%, rgba(32, 183, 229, 0.15), transparent 70%), linear-gradient(135deg, #071A3A 0%, #0D3B8E 100%)",
+                    border: "1px solid rgba(32, 183, 229, 0.35)",
                     borderRadius: "24px",
                     padding: "36px",
-                    boxShadow: "0 20px 60px rgba(14, 36, 64, 0.25)",
+                    boxShadow: "0 20px 60px rgba(7, 26, 58, 0.25)",
                     textAlign: "center",
                     position: "relative",
                   }}
@@ -348,7 +348,7 @@ function WhereWeWork() {
                       width: "100%",
                       objectFit: "contain",
                       borderRadius: "16px",
-                      filter: "drop-shadow(0 0 35px rgba(43, 168, 183, 0.45))",
+                      filter: "drop-shadow(0 0 35px rgba(32, 183, 229, 0.45))",
                     }}
                   />
                 </div>
@@ -356,8 +356,8 @@ function WhereWeWork() {
 
               {/* RIGHT NETWORK PILLARS */}
               <div className="col-12 col-lg-6">
-                <span className="eyebrow mb-2" style={{ color: "var(--teal)" }}>
-                  OUR COVERAGE GUARANTEE
+                <span className="eyebrow mb-2" style={{ color: "var(--sky-blue)" }}>
+                  OUR COVERAGE COMMITMENT
                 </span>
                 <h2 style={{ fontSize: "34px", color: "var(--deep-navy)", fontWeight: 700, marginBottom: "24px" }}>
                   Why Hospitals Across India Trust Our Network
@@ -370,7 +370,7 @@ function WhereWeWork() {
                       border: "1px solid var(--line)",
                       borderRadius: "16px",
                       padding: "20px 24px",
-                      boxShadow: "0 4px 16px rgba(14, 36, 64, 0.04)",
+                      boxShadow: "0 4px 16px rgba(7, 26, 58, 0.04)",
                     }}
                   >
                     <div className="d-flex align-items-center gap-3 mb-2">
@@ -379,8 +379,8 @@ function WhereWeWork() {
                           width: "36px",
                           height: "36px",
                           borderRadius: "10px",
-                          background: "rgba(43, 168, 183, 0.12)",
-                          color: "var(--teal)",
+                          background: "rgba(32, 183, 229, 0.12)",
+                          color: "var(--sky-blue)",
                           display: "flex",
                           alignItems: "center",
                           justifyContent: "center",
@@ -390,7 +390,7 @@ function WhereWeWork() {
                         01
                       </div>
                       <h4 style={{ margin: 0, fontSize: "18px", color: "var(--deep-navy)", fontWeight: 700 }}>
-                        Direct Radiologist Access
+                        Radiologist Consultation
                       </h4>
                     </div>
                     <p style={{ margin: 0, fontSize: "14.5px", color: "var(--navy-blue)", lineHeight: 1.6, textAlign: "left" }}>
@@ -404,7 +404,7 @@ function WhereWeWork() {
                       border: "1px solid var(--line)",
                       borderRadius: "16px",
                       padding: "20px 24px",
-                      boxShadow: "0 4px 16px rgba(14, 36, 64, 0.04)",
+                      boxShadow: "0 4px 16px rgba(7, 26, 58, 0.04)",
                     }}
                   >
                     <div className="d-flex align-items-center gap-3 mb-2">
@@ -413,8 +413,8 @@ function WhereWeWork() {
                           width: "36px",
                           height: "36px",
                           borderRadius: "10px",
-                          background: "rgba(43, 168, 183, 0.12)",
-                          color: "var(--teal)",
+                          background: "rgba(32, 183, 229, 0.12)",
+                          color: "var(--sky-blue)",
                           display: "flex",
                           alignItems: "center",
                           justifyContent: "center",
@@ -424,7 +424,7 @@ function WhereWeWork() {
                         02
                       </div>
                       <h4 style={{ margin: 0, fontSize: "18px", color: "var(--deep-navy)", fontWeight: 700 }}>
-                        Disciplined STAT SLAs
+                        Rapid Emergency Turnaround
                       </h4>
                     </div>
                     <p style={{ margin: 0, fontSize: "14.5px", color: "var(--navy-blue)", lineHeight: 1.6, textAlign: "left" }}>
@@ -438,7 +438,7 @@ function WhereWeWork() {
                       border: "1px solid var(--line)",
                       borderRadius: "16px",
                       padding: "20px 24px",
-                      boxShadow: "0 4px 16px rgba(14, 36, 64, 0.04)",
+                      boxShadow: "0 4px 16px rgba(7, 26, 58, 0.04)",
                     }}
                   >
                     <div className="d-flex align-items-center gap-3 mb-2">
@@ -447,8 +447,8 @@ function WhereWeWork() {
                           width: "36px",
                           height: "36px",
                           borderRadius: "10px",
-                          background: "rgba(43, 168, 183, 0.12)",
-                          color: "var(--teal)",
+                          background: "rgba(32, 183, 229, 0.12)",
+                          color: "var(--sky-blue)",
                           display: "flex",
                           alignItems: "center",
                           justifyContent: "center",
@@ -473,25 +473,25 @@ function WhereWeWork() {
             <div
               className="mt-5 text-center"
               style={{
-                background: "linear-gradient(135deg, #0A1C33 0%, #0E2440 100%)",
-                border: "1px solid rgba(43, 168, 183, 0.35)",
+                background: "linear-gradient(135deg, #071A3A 0%, #0D3B8E 55%, #20B7E5 100%)",
+                border: "1px solid rgba(32, 183, 229, 0.35)",
                 borderRadius: "24px",
                 padding: "48px 32px",
                 color: "#FFFFFF",
-                boxShadow: "0 20px 50px rgba(0, 0, 0, 0.3)",
+                boxShadow: "0 20px 50px rgba(7, 26, 58, 0.3)",
               }}
             >
               <h3 style={{ fontSize: "28px", color: "#FFFFFF", fontWeight: 700, marginBottom: "12px" }}>
                 Expand Your Diagnostic Capacity Today
               </h3>
-              <p style={{ color: "#A2B6CF", fontSize: "16px", maxWidth: "680px", margin: "0 auto 28px auto" }}>
+              <p style={{ color: "#E2EEFB", fontSize: "16px", maxWidth: "680px", margin: "0 auto 28px auto" }}>
                 Connect your PACS gateway in minutes and experience zero-delay 24/7 radiology reporting tailored for your facility.
               </p>
               <div className="d-flex flex-wrap justify-content-center gap-3">
                 <Link to="/" hash="contact" className="btn-custom btn-custom-primary" style={{ padding: "14px 32px", fontSize: "15px" }}>
                   Partner With Us →
                 </Link>
-                <Link to="/how-reporting-works" className="btn-custom btn-custom-ghost" style={{ borderColor: "rgba(43, 168, 183, 0.4)", color: "#FFFFFF", background: "rgba(255, 255, 255, 0.08)", padding: "14px 28px", fontSize: "15px" }}>
+                <Link to="/how-reporting-works" className="btn-custom btn-custom-ghost" style={{ borderColor: "rgba(32, 183, 229, 0.4)", color: "#FFFFFF", background: "rgba(255, 255, 255, 0.08)", padding: "14px 28px", fontSize: "15px" }}>
                   See How It Works →
                 </Link>
               </div>
