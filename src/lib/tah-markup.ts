@@ -184,7 +184,7 @@ export const tahMarkup = `
     <div class="container">
       <div class="row justify-content-center text-center mb-3 reveal">
         <div class="col-12 col-lg-9">
-          <span class="eyebrow mb-1">FROM SCAN TO SIGNED REPORT, IN FIVE STEPS</span>
+          <span class="eyebrow mb-1">FROM SCAN TO SIGNED REPORT</span>
           <h2 style="font-size: clamp(26px, 3.5vw, 40px); margin-top: 6px; margin-bottom: 6px;">How Reporting Works</h2>
           <p style="color: var(--muted-slate); font-size: 16px; max-width: 750px; margin: 0 auto;">Each of these steps is designed to facilitate the process of getting reports done, and is fully integrated with PACS.</p>
         </div>
