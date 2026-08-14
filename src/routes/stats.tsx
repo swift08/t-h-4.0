@@ -251,14 +251,14 @@ function StatsCMS() {
               type="submit"
               className="btn w-100 mb-3"
               style={{
-                background: "linear-gradient(90deg, #20B7E5 0%, #32B43C 100%)",
+                background: "linear-gradient(90deg, #00BCEB 0%, #14B8DD 35%, #22B69E 65%, #2BB560 85%, #32B43C 100%)",
                 color: "#FFFFFF",
                 fontWeight: 600,
                 padding: "12px",
                 borderRadius: "10px",
                 fontSize: "15px",
                 border: "none",
-                boxShadow: "0 4px 15px rgba(32, 183, 229, 0.35)",
+                boxShadow: "0 4px 15px rgba(0, 188, 235, 0.35)",
               }}
             >
               Sign In to CMS →
@@ -665,14 +665,14 @@ function StatsCMS() {
                       type="submit"
                       className="btn flex-fill"
                       style={{
-                        background: "linear-gradient(90deg, #20B7E5 0%, #32B43C 100%)",
+                        background: "linear-gradient(90deg, #00BCEB 0%, #14B8DD 35%, #22B69E 65%, #2BB560 85%, #32B43C 100%)",
                         color: "#FFFFFF",
                         fontWeight: 600,
                         padding: "11px 18px",
                         borderRadius: "10px",
                         border: "none",
                         fontSize: "14.5px",
-                        boxShadow: "0 4px 15px rgba(32, 183, 229, 0.35)",
+                        boxShadow: "0 4px 15px rgba(0, 188, 235, 0.35)",
                       }}
                     >
                       Save Changes Live

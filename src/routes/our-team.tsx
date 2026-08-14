@@ -143,8 +143,8 @@ function OurTeam() {
         <Link to="/">Home</Link>
         <Link to="/" hash="who-we-are">About Us</Link>
         <Link to="/our-team">Our Team</Link>
-        <Link to="/where-we-work">Where We Work</Link>
-        <Link to="/how-reporting-works">How It Works</Link>
+        <Link to="/" hash="pan-india-coverage">Pan-India Coverage</Link>
+        <Link to="/" hash="how-reporting-works">How It Works</Link>
         <Link to="/" hash="services">Services</Link>
         <Link to="/" hash="contact">Contact</Link>
         <a
@@ -207,13 +207,13 @@ function OurTeam() {
                   <div className="col-6">
                     <div className="team-stat-card">
                       <h3>{stats.radiologists}{stats.radiologistsSuffix}</h3>
-                      <span>RADIOLOGISTS</span>
+                      <span>ACTIVE RADIOLOGISTS</span>
                     </div>
                   </div>
                   <div className="col-6">
                     <div className="team-stat-card">
-                      <h3>{stats.studies}{stats.studiesSuffix}</h3>
-                      <span>STUDIES DAILY</span>
+                      <h3>15-30m</h3>
+                      <span>EMERGENCY STAT TAT</span>
                     </div>
                   </div>
                   <div className="col-6">
@@ -241,83 +241,6 @@ function OurTeam() {
                   />
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
-
-        {/* LEADERSHIP TEAM CARDS SECTION */}
-        <section style={{ padding: "80px 0 90px 0", background: "#FFFFFF" }}>
-          <div className="container">
-            <div className="row justify-content-center text-center mb-5">
-              <div className="col-12 col-lg-8">
-                <span className="eyebrow mb-2">LEADERSHIP &amp; MANAGEMENT</span>
-                <h2 style={{ fontSize: "32px", color: "var(--deep-navy)", fontWeight: 700 }}>
-                  Executive Leadership
-                </h2>
-              </div>
-            </div>
-
-            <div className="row g-4 mb-5">
-              {/* 1. Founder and Managing Director */}
-              <div className="col-12 col-md-6 col-lg-4">
-                <div className="team-leader-card">
-                  <div className="team-avatar-ph">
-                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-                      <circle cx="12" cy="7" r="4" />
-                    </svg>
-                  </div>
-                  <h3>Founder and Managing Director</h3>
-                  <span className="team-role-tag">Company leadership</span>
-                </div>
-              </div>
-
-              {/* 2. Chief of Radiology and Clinical Quality */}
-              <div className="col-12 col-md-6 col-lg-4">
-                <div className="team-leader-card">
-                  <div className="team-avatar-ph">
-                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                      <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
-                    </svg>
-                  </div>
-                  <h3>Chief of Radiology and Clinical Quality</h3>
-                  <span className="team-role-tag">Reporting standards and QA</span>
-                </div>
-              </div>
-
-              {/* 3. Head of Client Success */}
-              <div className="col-12 col-md-6 col-lg-4">
-                <div className="team-leader-card">
-                  <div className="team-avatar-ph">
-                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-                      <circle cx="9" cy="7" r="4" />
-                      <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
-                      <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                    </svg>
-                  </div>
-                  <h3>Head of Client Success</h3>
-                  <span className="team-role-tag">Onboarding and communication</span>
-                </div>
-              </div>
-            </div>
-
-            {/* NOTE BOX */}
-            <div
-              style={{
-                background: "#F0F7FA",
-                border: "1px dashed var(--teal)",
-                borderRadius: "14px",
-                padding: "20px 28px",
-                color: "var(--navy-blue)",
-                fontSize: "15px",
-                textAlign: "center",
-                maxWidth: "900px",
-                margin: "0 auto",
-                lineHeight: 1.5,
-              }}
-            >
-              <em>(Note: the team names and photos will be added. This has been structured so that real profiles can be added here with no redesign needed.)</em>
             </div>
           </div>
         </section>
@@ -363,10 +286,10 @@ function OurTeam() {
                   <Link to="/our-team">Our Team</Link>
                 </li>
                 <li>
-                  <Link to="/where-we-work">Where We Work</Link>
+                  <Link to="/" hash="pan-india-coverage">Pan-India Coverage</Link>
                 </li>
                 <li>
-                  <Link to="/how-reporting-works">How It Works</Link>
+                  <Link to="/" hash="how-reporting-works">How It Works</Link>
                 </li>
                 <li>
                   <Link to="/" hash="services">Services</Link>

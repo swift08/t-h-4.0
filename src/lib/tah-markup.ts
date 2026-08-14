@@ -30,7 +30,7 @@ export const tahMarkup = `
 <div class="mobile-drawer" id="mobile-drawer">
   <a href="#who-we-are">About Us</a>
   <a href="/our-team">Our Team</a>
-  <a href="/where-we-work">Where We Work</a>
+  <a href="#pan-india-coverage">Pan-India Coverage</a>
   <a href="#how-reporting-works">How It Works</a>
   <a href="#services">Services</a>
   <a href="#why-us">Why Us</a>
@@ -48,19 +48,31 @@ export const tahMarkup = `
     <div class="container">
       <div class="row g-4 align-items-center">
         <div class="col-12 col-lg-10 col-xl-9 reveal">
-          <span class="eyebrow"><span class="highlight-247-badge">24×7</span> Teleradiology Reporting</span>
-          <h1 class="hero-main-title">
-            <span class="hero-title-white">FULL-SPECTRUM<br>TELERADIOLOGY,</span><br>
-            <span class="hero-title-gradient-wrap">
-              <span class="hero-title-gradient">ONE REPORTING PARTNER</span>
-              <span class="hero-title-light-streak"></span>
-            </span>
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <span class="highlight-247-badge">24×7</span>
+            <span class="eyebrow" style="margin:0;">TELERADIOLOGY REPORTING</span>
+          </div>
+
+          <h1 style="font-size:clamp(32px, 4.5vw, 56px); line-height:1.15; margin-bottom:12px;">
+            FULL-SPECTRUM TELERADIOLOGY,<br>
+            <span class="hero-title-gradient">ONE REPORTING PARTNER</span>
+            <span class="hero-title-light-streak"></span>
           </h1>
+
           <p class="lead">From X-Rays to specialty MRIs, we cover the entire diagnostic imaging spectrum so you don't have to work with multiple vendors for different modalities.</p>
           
-          <div class="hero-quick-nav mt-3 pt-2 d-flex flex-wrap gap-3">
-            <a href="#services" class="hero-btn-services">Services →</a>
-            <a href="#contact" class="hero-btn-contact">Contact Us →</a>
+          <div class="d-flex flex-wrap gap-2 pt-2 btn-swap-group">
+            <a href="#services" class="btn-custom btn-custom-primary">Services →</a>
+            <a href="#contact" class="btn-custom btn-custom-ghost">Contact Us →</a>
+          </div>
+
+          <div class="modality-pills">
+            <a href="#services" class="modality-pill"><span class="pulse-dot"></span> CT Scan</a>
+            <a href="#services" class="modality-pill"><span class="pulse-dot"></span> MRI</a>
+            <a href="#services" class="modality-pill"><span class="pulse-dot"></span> Digital X-Ray</a>
+            <a href="#services" class="modality-pill"><span class="pulse-dot"></span> Mammography</a>
+            <a href="#services" class="modality-pill"><span class="pulse-dot"></span> Ultrasound</a>
+            <a href="#services" class="modality-pill"><span class="pulse-dot"></span> PET / Nuclear</a>
           </div>
         </div>
       </div>
@@ -94,7 +106,7 @@ export const tahMarkup = `
   <!-- WHO WE ARE SECTION -->
   <section class="who-we-are" id="who-we-are">
     <div class="container">
-      <div class="row g-4 g-lg-5 align-items-center">
+      <div class="row align-items-center g-4 g-lg-5">
         <div class="col-12 col-lg-5 reveal">
           <div class="who-we-are-image-card">
             <img src="${whoWeAreImgUrl}" alt="Trust & Hope Radiologists Consulting CT & MRI Diagnostic Scans" class="who-we-are-img">
@@ -120,7 +132,7 @@ export const tahMarkup = `
           <div class="d-flex flex-wrap gap-2 mt-4 btn-swap-group">
             <a href="/our-team" class="btn-custom btn-custom-primary">Meet Our Radiologists Panel →</a>
             <a href="#why-us" class="btn-custom btn-custom-ghost">Why Choose TAH RAD →</a>
-            <a href="/how-reporting-works" class="btn-custom btn-custom-ghost">How It Works →</a>
+            <a href="#pan-india-coverage" class="btn-custom btn-custom-ghost">Pan-India Coverage →</a>
           </div>
         </div>
       </div>
@@ -276,6 +288,7 @@ export const tahMarkup = `
                   </span>
                   <h3>Radiologist interpretation</h3>
                   <p class="step-text">A board-certified radiologist reviews the images, identifies pathologies, and generates the draft report.</p>
+                  <div class="step-highlight">Work is performed exclusively by certified specialists to ensure diagnostic precision.</div>
                 </div>
               </div>
             </div>
@@ -308,6 +321,7 @@ export const tahMarkup = `
                   </span>
                   <h3>Quality Check</h3>
                   <p class="step-text">They validate correct findings, correct any errors, add clinical context, and finalise the report.</p>
+                  <div class="step-highlight">The final report is double-checked for critical findings before communication.</div>
                 </div>
               </div>
             </div>
@@ -708,14 +722,14 @@ export const tahMarkup = `
       <div class="text-center mt-4 pt-3 reveal">
         <div class="d-inline-flex flex-wrap gap-2 justify-content-center btn-swap-group">
           <a href="/our-team" class="btn-custom btn-custom-primary">Meet Our 140+ Radiologists →</a>
-          <a href="/how-reporting-works" class="btn-custom btn-custom-ghost">How Reporting Works →</a>
-          <a href="/where-we-work" class="btn-custom btn-custom-ghost">Pan-India Coverage →</a>
+          <a href="#how-reporting-works" class="btn-custom btn-custom-ghost">How Reporting Works →</a>
+          <a href="#pan-india-coverage" class="btn-custom btn-custom-ghost">Pan-India Coverage →</a>
         </div>
       </div>
 
       <!-- MAP SHOWCASE BANNER -->
-      <div class="row mt-5 reveal">
-        <div class="col-12">
+      <div class="row mt-5 reveal" id="pan-india-coverage">
+        <div class="col-12" id="where-we-work">
           <div style="background: radial-gradient(circle at 80% 50%, rgba(32, 183, 229, 0.2), transparent 65%), linear-gradient(135deg, #071A3A 0%, #0D3B8E 100%); border: 1px solid rgba(32, 183, 229, 0.35); border-radius: 24px; padding: clamp(28px, 4vw, 48px); box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4); backdrop-filter: blur(12px); position: relative; overflow: hidden;">
             
             <!-- NEWS CHANNEL TICKER MARQUEE -->
@@ -804,9 +818,9 @@ export const tahMarkup = `
 
                 <!-- CTA BUTTON ROW -->
                 <div class="d-flex flex-wrap align-items-center gap-2 pt-1 btn-swap-group btn-swap-group-dark">
-                  <a href="/where-we-work" class="btn-custom btn-custom-primary" style="padding: 12px 22px; font-size: 14px;">Explore Coverage Map &rarr;</a>
+                  <a href="#contact" class="btn-custom btn-custom-primary" style="padding: 12px 22px; font-size: 14px;">Partner With Us &rarr;</a>
                   <a href="/our-team" class="btn-custom btn-custom-ghost" style="padding: 12px 18px; font-size: 14px;">Our Team &rarr;</a>
-                  <a href="/how-reporting-works" class="btn-custom btn-custom-ghost" style="padding: 12px 18px; font-size: 14px;">How It Works &rarr;</a>
+                  <a href="#how-reporting-works" class="btn-custom btn-custom-ghost" style="padding: 12px 18px; font-size: 14px;">How It Works &rarr;</a>
                 </div>
               </div>
 
@@ -922,8 +936,8 @@ export const tahMarkup = `
         <ul>
           <li><a href="#who-we-are">About Us</a></li>
           <li><a href="/our-team">Our Team</a></li>
-          <li><a href="/where-we-work">Where We Work</a></li>
-          <li><a href="/how-reporting-works">How It Works</a></li>
+          <li><a href="#pan-india-coverage">Pan-India Coverage</a></li>
+          <li><a href="#how-reporting-works">How It Works</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#why-us">Why Us</a></li>
           <li><a href="#contact">Contact</a></li>
