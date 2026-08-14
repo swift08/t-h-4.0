@@ -14,7 +14,6 @@ export const tahMarkup = `
         <span>TAH RAD<small>Trust and Hope Rad Pvt. Ltd.</small></span>
       </a>
       <nav class="links">
-        <a href="#hero">Home</a>
         <a href="#who-we-are">About Us</a>
         <a href="#how-reporting-works">How It Works</a>
         <a href="#services">Services</a>
@@ -29,7 +28,6 @@ export const tahMarkup = `
 </header>
 
 <div class="mobile-drawer" id="mobile-drawer">
-  <a href="#hero">Home</a>
   <a href="#who-we-are">About Us</a>
   <a href="/our-team">Our Team</a>
   <a href="/where-we-work">Where We Work</a>
@@ -119,7 +117,7 @@ export const tahMarkup = `
 
           <p class="who-text mb-0">The main differentiator for us, is our extensive network of Radiologists as well as our communication with our clients. Our clients don’t have to rely on ticket systems with no information related to the request, or approximate time frames. Our clients can expect direct communication with the radiologist, clear paths for escalation, and reporting turnaround times we are actually accountable to.</p>
           
-          <div class="d-flex flex-wrap gap-2 mt-4">
+          <div class="d-flex flex-wrap gap-2 mt-4 btn-swap-group">
             <a href="/our-team" class="btn-custom btn-custom-primary">Meet Our Radiologists Panel →</a>
             <a href="#why-us" class="btn-custom btn-custom-ghost">Why Choose TAH RAD →</a>
             <a href="/how-reporting-works" class="btn-custom btn-custom-ghost">How It Works →</a>
@@ -421,7 +419,6 @@ export const tahMarkup = `
                 <h3 class="svc-panel-title">CT Reporting</h3>
                 <p class="svc-panel-sub">Fast &amp; Accurate Computed Tomography</p>
               </div>
-              <span class="svc-panel-badge stat">Rapid Turnaround</span>
             </div>
             <p class="svc-panel-desc">High-speed CT reporting for head, chest, abdomen, angiography, and polytrauma emergencies with sub-hour stat delivery.</p>
             <div class="svc-panel-bullets">
@@ -443,7 +440,6 @@ export const tahMarkup = `
                 <h3 class="svc-panel-title">MRI Reporting</h3>
                 <p class="svc-panel-sub">High-Resolution Soft Tissue Diagnostic</p>
               </div>
-              <span class="svc-panel-badge">Subspecialty</span>
             </div>
             <p class="svc-panel-desc">Comprehensive MRI interpretations covering neuroradiology, spine, musculoskeletal joints, pelvic, and cardiac studies.</p>
             <div class="svc-panel-bullets">
@@ -465,7 +461,6 @@ export const tahMarkup = `
                 <h3 class="svc-panel-title">X-Ray Reporting</h3>
                 <p class="svc-panel-sub">24/7 Digital Radiography</p>
               </div>
-              <span class="svc-panel-badge">24/7 Digital</span>
             </div>
             <p class="svc-panel-desc">Rapid turnaround for high-volume plain radiography, chest X-rays, trauma skeletal series, and routine screening.</p>
             <div class="svc-panel-bullets">
@@ -487,7 +482,6 @@ export const tahMarkup = `
                 <h3 class="svc-panel-title">PET Reporting</h3>
                 <p class="svc-panel-sub">Oncology &amp; Metabolic Imaging</p>
               </div>
-              <span class="svc-panel-badge">Oncology Staging</span>
             </div>
             <p class="svc-panel-desc">Specialized PET/CT molecular imaging reads for cancer staging, therapy evaluation, and metabolic lesion tracking.</p>
             <div class="svc-panel-bullets">
@@ -509,7 +503,6 @@ export const tahMarkup = `
                 <h3 class="svc-panel-title">USG Reporting</h3>
                 <p class="svc-panel-sub">Ultrasonography &amp; Color Doppler</p>
               </div>
-              <span class="svc-panel-badge">Doppler Vascular</span>
             </div>
             <p class="svc-panel-desc">Expert review for general ultrasound, Doppler vascular studies, anomaly scans, and pelvic diagnostic imagery.</p>
             <div class="svc-panel-bullets">
@@ -531,7 +524,6 @@ export const tahMarkup = `
                 <h3 class="svc-panel-title">Subspecialty Reads</h3>
                 <p class="svc-panel-sub">Domain-Specific Expert Interpretations</p>
               </div>
-              <span class="svc-panel-badge">Board Certified</span>
             </div>
             <p class="svc-panel-desc">Domain-specific imaging reads are reported by radiologists trained in Neuroradiology, Musculoskeletal Imaging, Cardiothoracic Imaging, Oncology and Obstetric Imaging.</p>
             <div class="svc-panel-bullets">
@@ -553,7 +545,6 @@ export const tahMarkup = `
                 <h3 class="svc-panel-title">Nighthawk &amp; Stat Reads</h3>
                 <p class="svc-panel-sub">Nighttime Radiology Coverage, Daytime Peace of Mind</p>
               </div>
-              <span class="svc-panel-badge stat">24/7 Nighthawk</span>
             </div>
             <p class="svc-panel-desc">Overnight and emergency reads are reported so your nightshift won't be unproductive, leaving undetermined cases for the morning hours.</p>
             <div class="svc-panel-bullets">
@@ -575,7 +566,6 @@ export const tahMarkup = `
                 <h3 class="svc-panel-title">Second Opinions</h3>
                 <p class="svc-panel-sub">Clinical Certainty for Complex Cases</p>
               </div>
-              <span class="svc-panel-badge">Peer Review</span>
             </div>
             <p class="svc-panel-desc">For your complex and/or conflicting cases, we provide an additional clinical level of certainty through independent subspecialty reviews.</p>
             <div class="svc-panel-bullets">
@@ -716,7 +706,7 @@ export const tahMarkup = `
       </div>
 
       <div class="text-center mt-4 pt-3 reveal">
-        <div class="d-inline-flex flex-wrap gap-2 justify-content-center">
+        <div class="d-inline-flex flex-wrap gap-2 justify-content-center btn-swap-group">
           <a href="/our-team" class="btn-custom btn-custom-primary">Meet Our 140+ Radiologists →</a>
           <a href="/how-reporting-works" class="btn-custom btn-custom-ghost">How Reporting Works →</a>
           <a href="/where-we-work" class="btn-custom btn-custom-ghost">Pan-India Coverage →</a>
@@ -813,10 +803,10 @@ export const tahMarkup = `
                 </div>
 
                 <!-- CTA BUTTON ROW -->
-                <div class="d-flex flex-wrap align-items-center gap-2 pt-1">
+                <div class="d-flex flex-wrap align-items-center gap-2 pt-1 btn-swap-group btn-swap-group-dark">
                   <a href="/where-we-work" class="btn-custom btn-custom-primary" style="padding: 12px 22px; font-size: 14px;">Explore Coverage Map &rarr;</a>
-                  <a href="/our-team" class="btn-custom btn-custom-ghost" style="border-color: rgba(32, 183, 229, 0.4) !important; color: #FFFFFF !important; background: rgba(255, 255, 255, 0.08) !important; padding: 12px 18px; font-size: 14px;">Our Team &rarr;</a>
-                  <a href="/how-reporting-works" class="btn-custom btn-custom-ghost" style="border-color: rgba(32, 183, 229, 0.4) !important; color: #FFFFFF !important; background: rgba(255, 255, 255, 0.08) !important; padding: 12px 18px; font-size: 14px;">How It Works &rarr;</a>
+                  <a href="/our-team" class="btn-custom btn-custom-ghost" style="padding: 12px 18px; font-size: 14px;">Our Team &rarr;</a>
+                  <a href="/how-reporting-works" class="btn-custom btn-custom-ghost" style="padding: 12px 18px; font-size: 14px;">How It Works &rarr;</a>
                 </div>
               </div>
 
@@ -844,17 +834,15 @@ export const tahMarkup = `
           
           <div class="office">
             <h4>REGISTERED OFFICE &amp; CONTACT</h4>
-            <p>Trust and Hope Rad Pvt. Ltd.<br>India</p>
+            <p>Trust and Hope Rad Pvt. Ltd.<br>#1035, 4th 'M' Block, Dr. Rajkumar Road, Rajajinagar, Bangalore – 560010</p>
             <p style="margin-bottom:12px;">
-              <strong>Call / Helpline:</strong> <a href="tel:+919741573222" style="color:var(--teal); font-weight:600; text-decoration:none;">+91 97415 73222</a><br>
-              <strong>WhatsApp:</strong> <a href="https://wa.link/sz5un4" target="_blank" rel="noopener noreferrer" style="color:#25D366; font-weight:600; text-decoration:none;">+91 97415 73222 (Chat Now &rarr;)</a><br>
-              <strong>Email:</strong> <a href="mailto:trustandhopeteleradiology@gmail.com" style="color:var(--teal); font-weight:600; text-decoration:none;">trustandhopeteleradiology@gmail.com</a>
+              <strong>Call / Helpline:</strong> <a href="tel:+918867474000" style="color:var(--teal); font-weight:600; text-decoration:none;">+91 88674 74000</a><br>
+              <strong>WhatsApp:</strong> <a href="https://wa.me/918867474000" target="_blank" rel="noopener noreferrer" style="color:#25D366; font-weight:600; text-decoration:none;">+91 88674 74000 (Chat Now &rarr;)</a><br>
+              <strong>Email:</strong> <a href="mailto:admin@trustandhoperad.com" style="color:var(--teal); font-weight:600; text-decoration:none;">admin@trustandhoperad.com</a>
             </p>
-            <div class="contact-social-buttons d-flex flex-wrap gap-2 mt-3">
-              <a href="https://wa.link/sz5un4" target="_blank" rel="noopener noreferrer" class="btn-custom" style="background:#25D366; color:#fff; padding:7px 16px; font-size:13px; border-radius:30px; text-decoration:none;">WhatsApp</a>
-              <a href="https://www.facebook.com/profile.php?id=61550262965070&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer" class="btn-custom btn-custom-ghost" style="padding:7px 16px; font-size:13px; border-radius:30px; text-decoration:none;">Facebook</a>
+            <div class="contact-social-buttons d-flex flex-wrap gap-2 mt-3 btn-swap-group">
+              <a href="https://wa.me/918867474000" target="_blank" rel="noopener noreferrer" class="btn-custom btn-swap-default" style="background:#25D366; color:#fff; padding:7px 16px; font-size:13px; border-radius:30px; text-decoration:none;">WhatsApp</a>
               <a href="https://in.linkedin.com/company/trust-and-hope-rad?trk=public_post_feed-actor-name" target="_blank" rel="noopener noreferrer" class="btn-custom btn-custom-ghost" style="padding:7px 16px; font-size:13px; border-radius:30px; text-decoration:none;">LinkedIn</a>
-              <a href="https://instagram.com/trustandhopeteleradiology?utm_source=qr&igshid=NGExMmI2YTkyZg==" target="_blank" rel="noopener noreferrer" class="btn-custom btn-custom-ghost" style="padding:7px 16px; font-size:13px; border-radius:30px; text-decoration:none;">Instagram</a>
             </div>
           </div>
         </div>
@@ -916,21 +904,15 @@ export const tahMarkup = `
       <div class="col-6 col-md-4 col-lg-3">
         <h5>Contact Us</h5>
         <ul style="font-size: 13.5px;">
-          <li><strong>Call:</strong> <a href="tel:+919741573222">+91 97415 73222</a></li>
-          <li><strong>WhatsApp:</strong> <a href="https://wa.link/sz5un4" target="_blank" rel="noopener noreferrer" style="color:#25D366;">+91 97415 73222</a></li>
-          <li><strong>Mail:</strong> <a href="mailto:trustandhopeteleradiology@gmail.com" style="word-break:break-all;">trustandhopeteleradiology@gmail.com</a></li>
+          <li><strong>Call:</strong> <a href="tel:+918867474000">+91 88674 74000</a></li>
+          <li><strong>WhatsApp:</strong> <a href="https://wa.me/918867474000" target="_blank" rel="noopener noreferrer" style="color:#25D366;">+91 88674 74000</a></li>
+          <li><strong>Mail:</strong> <a href="mailto:admin@trustandhoperad.com" style="word-break:break-all;">admin@trustandhoperad.com</a></li>
         </ul>
         <div class="topbar-socials mt-3">
-          <a href="https://www.facebook.com/profile.php?id=61550262965070&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer" class="topbar-social-link fb-hover" title="Facebook" aria-label="Facebook">
-            <svg viewBox="0 0 24 24" fill="currentColor" style="width:14px;height:14px;"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-          </a>
           <a href="https://in.linkedin.com/company/trust-and-hope-rad?trk=public_post_feed-actor-name" target="_blank" rel="noopener noreferrer" class="topbar-social-link li-hover" title="LinkedIn" aria-label="LinkedIn">
             <svg viewBox="0 0 24 24" fill="currentColor" style="width:14px;height:14px;"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-1.25.7-1.92 1.63-1.92.93 0 1.36.67 1.36 1.92v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
           </a>
-          <a href="https://instagram.com/trustandhopeteleradiology?utm_source=qr&igshid=NGExMmI2YTkyZg==" target="_blank" rel="noopener noreferrer" class="topbar-social-link ig-hover" title="Instagram" aria-label="Instagram">
-            <svg viewBox="0 0 24 24" fill="currentColor" style="width:14px;height:14px;"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-          </a>
-          <a href="https://wa.link/sz5un4" target="_blank" rel="noopener noreferrer" class="topbar-social-link wa-hover" title="WhatsApp" aria-label="WhatsApp">
+          <a href="https://wa.me/918867474000" target="_blank" rel="noopener noreferrer" class="topbar-social-link wa-hover" title="WhatsApp" aria-label="WhatsApp">
             <svg viewBox="0 0 24 24" fill="currentColor" style="width:14px;height:14px;"><path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984 0 1.76.459 3.474 1.33 4.987l-1.414 5.163 5.286-1.386a9.96 9.96 0 004.787 1.22h.005c5.507 0 9.99-4.478 9.99-9.985 0-2.667-1.039-5.176-2.924-7.062A9.923 9.923 0 0012.012 2zm5.82 14.161c-.247.692-1.22 1.326-1.996 1.492-.533.113-1.229.206-3.567-.763-2.989-1.237-4.908-4.275-5.059-4.474-.148-.198-1.218-1.621-1.218-3.092 0-1.47.767-2.196 1.041-2.495.274-.298.599-.373.799-.373.199 0 .399.002.573.01.185.008.435-.07.68.518.248.598.847 2.068.921 2.217.075.149.124.323.025.522-.099.198-.149.322-.298.497-.149.174-.313.389-.447.523-.148.149-.303.311-.13.609.174.298.774 1.277 1.662 2.067 1.14 1.015 2.102 1.33 2.399 1.478.298.149.472.124.646-.075.174-.199.746-.87.945-1.168.199-.298.398-.248.671-.149.274.099 1.742.82 2.04 1.043.298.224.497.348.572.473.075.124.075.72-.172 1.412z"/></svg>
           </a>
         </div>
@@ -968,7 +950,7 @@ export const tahMarkup = `
 
 <button id="back-to-top" aria-label="Back to Top">↑</button>
 
-<a href="https://wa.link/sz5un4" target="_blank" rel="noopener noreferrer" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+<a href="https://wa.me/918867474000" target="_blank" rel="noopener noreferrer" class="floating-whatsapp" aria-label="Chat on WhatsApp">
   <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984 0 1.76.459 3.474 1.33 4.987l-1.414 5.163 5.286-1.386a9.96 9.96 0 004.787 1.22h.005c5.507 0 9.99-4.478 9.99-9.985 0-2.667-1.039-5.176-2.924-7.062A9.923 9.923 0 0012.012 2zm5.82 14.161c-.247.692-1.22 1.326-1.996 1.492-.533.113-1.229.206-3.567-.763-2.989-1.237-4.908-4.275-5.059-4.474-.148-.198-1.218-1.621-1.218-3.092 0-1.47.767-2.196 1.041-2.495.274-.298.599-.373.799-.373.199 0 .399.002.573.01.185.008.435-.07.68.518.248.598.847 2.068.921 2.217.075.149.124.323.025.522-.099.198-.149.322-.298.497-.149.174-.313.389-.447.523-.148.149-.303.311-.13.609.174.298.774 1.277 1.662 2.067 1.14 1.015 2.102 1.33 2.399 1.478.298.149.472.124.646-.075.174-.199.746-.87.945-1.168.199-.298.398-.248.671-.149.274.099 1.742.82 2.04 1.043.298.224.497.348.572.473.075.124.075.72-.172 1.412z"/></svg>
   <span>Chat on WhatsApp</span>
 </a>

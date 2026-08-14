@@ -16,17 +16,18 @@ export const ORGANIZATION_SCHEMA = {
       },
       "image": `${SITE_URL}/Trust%20&%20Hope_Logo_Round_Transparent.webp`,
       "description": "Trust and Hope Rad Pvt. Ltd. (TAH RAD) is India's leading 24x7 teleradiology reporting provider serving 350+ diagnostic centres and hospitals across 15+ states. Powered by 140+ fellowship-trained radiologists delivering rapid CT, MRI, X-Ray, and subspecialty reads with multi-level quality assurance.",
-      "email": "trustandhopeteleradiology@gmail.com",
-      "telephone": "+919741573222",
+      "email": "admin@trustandhoperad.com",
+      "telephone": "+918867474000",
       "sameAs": [
-        "https://www.facebook.com/profile.php?id=61550262965070&mibextid=ZbWKwL",
         "https://in.linkedin.com/company/trust-and-hope-rad?trk=public_post_feed-actor-name",
-        "https://instagram.com/trustandhopeteleradiology?utm_source=qr&igshid=NGExMmI2YTkyZg==",
-        "https://wa.link/sz5un4"
+        "https://wa.me/918867474000"
       ],
       "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "#1035, 4th 'M' Block, Dr. Rajkumar Road, Rajajinagar",
+        "addressLocality": "Bangalore",
+        "postalCode": "560010",
         "addressCountry": "IN"
       },
       "areaServed": {

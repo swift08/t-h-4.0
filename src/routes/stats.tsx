@@ -251,7 +251,7 @@ function StatsCMS() {
               type="submit"
               className="btn w-100 mb-3"
               style={{
-                background: "linear-gradient(90deg, #32B43C 0%, #20B7E5 100%)",
+                background: "linear-gradient(90deg, #20B7E5 0%, #32B43C 100%)",
                 color: "#FFFFFF",
                 fontWeight: 600,
                 padding: "12px",
@@ -665,7 +665,7 @@ function StatsCMS() {
                       type="submit"
                       className="btn flex-fill"
                       style={{
-                        background: "linear-gradient(90deg, #32B43C 0%, #20B7E5 100%)",
+                        background: "linear-gradient(90deg, #20B7E5 0%, #32B43C 100%)",
                         color: "#FFFFFF",
                         fontWeight: 600,
                         padding: "11px 18px",
