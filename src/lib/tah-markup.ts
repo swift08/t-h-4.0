@@ -58,7 +58,7 @@ export const tahMarkup = `
               <span class="hero-title-light-streak"></span>
             </span>
           </h1>
-          <p class="lead">From X-Rays to specialty MRIs, we cover the entire diagnostic imaging spectrum so you don't have to work with multiple vendors for different modalities.</p>
+          <p class="lead">Fast, subspecialty-backed reporting across all modalities—24/7/365. Eliminate coverage gaps and streamline your clinical workflow.</p>
           
           <div class="hero-quick-nav mt-3 pt-2 d-flex flex-wrap gap-3">
             <a href="#services" class="hero-btn-services">Services →</a>
@@ -419,12 +419,14 @@ export const tahMarkup = `
             </div>
             <p class="svc-panel-desc">Comprehensive MRI interpretations covering neuroradiology, spine, musculoskeletal joints, pelvic, and cardiac studies.</p>
             <div class="svc-panel-bullets">
-              <div class="svc-bullet"><span class="svc-bullet-dot"></span><div><strong>Subspecialty Neuroradiology &amp; Spine</strong></div></div>
+              <div class="svc-bullet"><span class="svc-bullet-dot"></span><div><strong>Neurology &amp; Spine</strong></div></div>
               <div class="svc-bullet"><span class="svc-bullet-dot"></span><div><strong>MSK Joint &amp; Cartilage Imaging</strong></div></div>
               <div class="svc-bullet"><span class="svc-bullet-dot"></span><div><strong>Multiparametric Prostate &amp; Abdomen</strong></div></div>
+              <div class="svc-bullet"><span class="svc-bullet-dot"></span><div><strong>Cardiac</strong></div></div>
+              <div class="svc-bullet"><span class="svc-bullet-dot"></span><div><strong>Special Studies</strong></div></div>
             </div>
             <div class="svc-panel-footer">
-              <span class="svc-footer-chip">Neuro MRI</span><span class="svc-footer-chip">Spine MRI</span><span class="svc-footer-chip">MSK</span><span class="svc-footer-chip">Cardiac MRI</span><span class="svc-footer-chip">mpMRI</span>
+              <span class="svc-footer-chip">Neuro MRI</span><span class="svc-footer-chip">Spine MRI</span><span class="svc-footer-chip">MSK</span><span class="svc-footer-chip">Cardiac MRI</span><span class="svc-footer-chip">MultiParameticMRI</span>
             </div>
           </div>
 
@@ -440,7 +442,7 @@ export const tahMarkup = `
             </div>
             <p class="svc-panel-desc">Rapid turnaround for high-volume plain radiography, chest X-rays, trauma skeletal series, and routine screening.</p>
             <div class="svc-panel-bullets">
-              <div class="svc-bullet"><span class="svc-bullet-dot"></span><div><strong>Chest &amp; Cardiac Radiography</strong></div></div>
+              <div class="svc-bullet"><span class="svc-bullet-dot"></span><div><strong>Chest Radiography</strong></div></div>
               <div class="svc-bullet"><span class="svc-bullet-dot"></span><div><strong>Orthopedic Skeletal Series</strong></div></div>
               <div class="svc-bullet"><span class="svc-bullet-dot"></span><div><strong>High-Volume Batch Reporting</strong></div></div>
             </div>
@@ -480,14 +482,13 @@ export const tahMarkup = `
                 <p class="svc-panel-sub">Ultrasonography &amp; Color Doppler</p>
               </div>
             </div>
-            <p class="svc-panel-desc">Expert review for general ultrasound, Doppler vascular studies, anomaly scans, and pelvic diagnostic imagery.</p>
+            <p class="svc-panel-desc">Expert review for general ultrasound, Doppler vascular studies, and pelvic diagnostic imagery.</p>
             <div class="svc-panel-bullets">
               <div class="svc-bullet"><span class="svc-bullet-dot"></span><div><strong>Color Doppler Vascular Reads</strong></div></div>
-              <div class="svc-bullet"><span class="svc-bullet-dot"></span><div><strong>Obstetric &amp; Fetal Anomaly Scans</strong></div></div>
               <div class="svc-bullet"><span class="svc-bullet-dot"></span><div><strong>Abdominal &amp; Small Parts Review</strong></div></div>
             </div>
             <div class="svc-panel-footer">
-              <span class="svc-footer-chip">Doppler</span><span class="svc-footer-chip">Obstetric</span><span class="svc-footer-chip">Abdomen USG</span><span class="svc-footer-chip">Thyroid</span><span class="svc-footer-chip">Scrotal</span>
+              <span class="svc-footer-chip">Doppler</span><span class="svc-footer-chip">Pelvic</span><span class="svc-footer-chip">Abdomen USG</span><span class="svc-footer-chip">Thyroid</span><span class="svc-footer-chip">Scrotal</span>
             </div>
           </div>
 
