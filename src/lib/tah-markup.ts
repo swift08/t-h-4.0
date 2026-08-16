@@ -179,13 +179,13 @@ export const tahMarkup = `
     </div>
   </section>
 
-  <!-- HOW REPORTING WORKS SECTION -->
+  <!-- HOW TELERADIOLOGY WORKS SECTION -->
   <section class="how-reporting-works" id="how-reporting-works" style="padding: 16px 0 30px 0; background: var(--paper); border-bottom: 1px solid var(--line);">
     <div class="container">
       <div class="row justify-content-center text-center mb-3 reveal">
         <div class="col-12 col-lg-9">
           <span class="eyebrow mb-1">FROM SCAN TO SIGNED REPORT</span>
-          <h2 style="font-size: clamp(26px, 3.5vw, 40px); margin-top: 6px; margin-bottom: 6px;">How Reporting Works</h2>
+          <h2 style="font-size: clamp(26px, 3.5vw, 40px); margin-top: 6px; margin-bottom: 6px;">How Teleradiology Works</h2>
           <p style="color: var(--muted-slate); font-size: 16px; max-width: 750px; margin: 0 auto;">Each of these steps is designed to facilitate the process of getting reports done, and is fully integrated with PACS.</p>
         </div>
       </div>
@@ -679,7 +679,7 @@ export const tahMarkup = `
       <div class="text-center mt-4 pt-3 reveal">
         <div class="d-inline-flex flex-wrap gap-2 justify-content-center btn-swap-group">
           <a href="/our-team" class="btn-custom btn-custom-primary">Meet Our 140+ Radiologists →</a>
-          <a href="#how-reporting-works" class="btn-custom btn-custom-ghost">How Reporting Works →</a>
+          <a href="#how-reporting-works" class="btn-custom btn-custom-ghost">How Teleradiology Works →</a>
           <a href="#where-we-work" class="btn-custom btn-custom-ghost">Pan India Coverage →</a>
         </div>
       </div>
